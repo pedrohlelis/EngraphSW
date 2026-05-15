@@ -1,5 +1,13 @@
 # AI Role Separation
 
+## Related Documents
+
+* [Repository Governance](repository-governance.md) — defines the authority hierarchy within which both roles operate
+* [Orchestration Model](orchestration-model.md) — defines the operational flows through which this role separation is enacted
+* [Information Boundaries](../../.claude/instructions/information-boundaries.md) — enforces role-scoped document visibility at execution time
+
+---
+
 ## Purpose
 
 This document defines the separation of responsibilities between AI orchestration roles and AI implementation roles inside the EngraphSW repository.
@@ -114,11 +122,11 @@ The implementer should NOT:
 The intended hierarchy is:
 
 User
-↓
+|
 AI Orchestrator
-↓
+|
 Repository Governance Documents
-↓
+|
 AI Implementer
 
 The implementer operates inside the governed environment.

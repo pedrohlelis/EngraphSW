@@ -1,0 +1,312 @@
+{
+  "C:\\Users\\USER\\dev\\EngraphSW\\CLAUDE.md": {
+    "mtime": 1778868161.2484996,
+    "ast_hash": "c6cc83e44ec131d6affb9b2e32775ac7",
+    "semantic_hash": "c6cc83e44ec131d6affb9b2e32775ac7"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\.claude\\CLAUDE.md": {
+    "mtime": 1778810496.048398,
+    "ast_hash": "6781d067dec69dfe10aa80fac8bd130b",
+    "semantic_hash": "6781d067dec69dfe10aa80fac8bd130b"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\.claude\\agents\\implementer.md": {
+    "mtime": 1778810343.8978698,
+    "ast_hash": "4f03cc52a1451d846320d73354bb287f",
+    "semantic_hash": "4f03cc52a1451d846320d73354bb287f"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\.claude\\agents\\orchestrator.md": {
+    "mtime": 1778869181.4810686,
+    "ast_hash": "5c87bfa98742688dee0dc086452427ec",
+    "semantic_hash": "5c87bfa98742688dee0dc086452427ec"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\.claude\\instructions\\information-boundaries.md": {
+    "mtime": 1778809001.674126,
+    "ast_hash": "0ce3cc13b100cd1d3f7c11fd229f97f8",
+    "semantic_hash": "0ce3cc13b100cd1d3f7c11fd229f97f8"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\.claude\\skills\\ai-workflows\\SKILL.md": {
+    "mtime": 1778800276.211803,
+    "ast_hash": "ad65c18ecbccabea8427335eb158d72e",
+    "semantic_hash": "ad65c18ecbccabea8427335eb158d72e"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\.claude\\skills\\architecture-review\\SKILL.md": {
+    "mtime": 1778799046.5619009,
+    "ast_hash": "f8b3e0dacbfda6286a560c6a8abfa93c",
+    "semantic_hash": "f8b3e0dacbfda6286a560c6a8abfa93c"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\.claude\\skills\\domain-driven-design\\SKILL.md": {
+    "mtime": 1778799257.1191065,
+    "ast_hash": "55a38078f057e562e7d4ba5e0f87b492",
+    "semantic_hash": "55a38078f057e562e7d4ba5e0f87b492"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\.claude\\skills\\event-driven-patterns\\SKILL.md": {
+    "mtime": 1778800276.211803,
+    "ast_hash": "3ca7ba30a11e1d54f22dd0716f90cc66",
+    "semantic_hash": "3ca7ba30a11e1d54f22dd0716f90cc66"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\.claude\\skills\\graph-engineering\\SKILL.md": {
+    "mtime": 1778799116.04556,
+    "ast_hash": "d95a028cc45da92f91eae156482ca193",
+    "semantic_hash": "d95a028cc45da92f91eae156482ca193"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\.claude\\skills\\node-design\\SKILL.md": {
+    "mtime": 1778800276.211803,
+    "ast_hash": "a427bed6765f18c22fac7340a3b27713",
+    "semantic_hash": "a427bed6765f18c22fac7340a3b27713"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\.claude\\skills\\prisma-postgres-patterns\\SKILL.md": {
+    "mtime": 1778799297.4775004,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\.claude\\skills\\react-flow-patterns\\SKILL.md": {
+    "mtime": 1778799219.7364876,
+    "ast_hash": "c5f2df1ef5b66733256330387e76e9b6",
+    "semantic_hash": "c5f2df1ef5b66733256330387e76e9b6"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\.claude\\skills\\technical-debt-review\\SKILL.md": {
+    "mtime": 1778799346.9987924,
+    "ast_hash": "2415c3edce2c9161f264bf01cbe4cf69",
+    "semantic_hash": "2415c3edce2c9161f264bf01cbe4cf69"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\.claude\\skills\\ui-system\\SKILL.md": {
+    "mtime": 1778799187.9268403,
+    "ast_hash": "40eebd089b1d1b9b078f9dc5c0a022c0",
+    "semantic_hash": "40eebd089b1d1b9b078f9dc5c0a022c0"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\adr\\001-modular-monolith.md": {
+    "mtime": 1778862620.7007887,
+    "ast_hash": "d59c4681b7aa124a81c1bd22139e98f5",
+    "semantic_hash": "d59c4681b7aa124a81c1bd22139e98f5"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\adr\\002-plugin-node-architecture.md": {
+    "mtime": 1778862626.783992,
+    "ast_hash": "30938dd4b5a77aa6ad264ed938e1218c",
+    "semantic_hash": "30938dd4b5a77aa6ad264ed938e1218c"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\adr\\003-graph-system-of-record.md": {
+    "mtime": 1778862633.193004,
+    "ast_hash": "07b4487927ce7b5a5f6e6e3a297166d4",
+    "semantic_hash": "07b4487927ce7b5a5f6e6e3a297166d4"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\adr\\004-event-driven-communication.md": {
+    "mtime": 1778862638.7619781,
+    "ast_hash": "f6a11219f42e89cc69e2dda7da4c8d3a",
+    "semantic_hash": "f6a11219f42e89cc69e2dda7da4c8d3a"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\adr\\005-ai-provider-abstraction.md": {
+    "mtime": 1778862644.412684,
+    "ast_hash": "e82c6e29bf6dad9ad87fe257032b8e88",
+    "semantic_hash": "e82c6e29bf6dad9ad87fe257032b8e88"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\adr\\006-canvas-technology.md": {
+    "mtime": 1778870559.1159365,
+    "ast_hash": "f829d9bc99631f996024ea6e61fdff01",
+    "semantic_hash": "f829d9bc99631f996024ea6e61fdff01"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\adr\\007-state-management.md": {
+    "mtime": 1778870696.322152,
+    "ast_hash": "75c0b2992d882d509cd7d9b0bf69a3a1",
+    "semantic_hash": "75c0b2992d882d509cd7d9b0bf69a3a1"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\architecture\\ai-architecture.md": {
+    "mtime": 1778869888.4133327,
+    "ast_hash": "8cd91045e36337a3d9999e7e37eb5ba1",
+    "semantic_hash": "8cd91045e36337a3d9999e7e37eb5ba1"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\architecture\\canvas-engine.md": {
+    "mtime": 1778871335.9246247,
+    "ast_hash": "d57ba12eaacabe7b7571bc469bed5b7e",
+    "semantic_hash": "d57ba12eaacabe7b7571bc469bed5b7e"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\architecture\\dependency-propagation.md": {
+    "mtime": 1778869824.0680478,
+    "ast_hash": "f8e49c184e7bfcb09520c5a5b8400b72",
+    "semantic_hash": "f8e49c184e7bfcb09520c5a5b8400b72"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\architecture\\export-system.md": {
+    "mtime": 1778869120.8539143,
+    "ast_hash": "fdcc32f29ecabce65325bd99c2d07f62",
+    "semantic_hash": "fdcc32f29ecabce65325bd99c2d07f62"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\architecture\\initial-schema.md": {
+    "mtime": 1778871229.9853413,
+    "ast_hash": "352f9d1585b003643f04e5674a599dcb",
+    "semantic_hash": "352f9d1585b003643f04e5674a599dcb"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\architecture\\modular-boundaries.md": {
+    "mtime": 1778869888.6721187,
+    "ast_hash": "c1b1deecef1d548ff19bee2fda12fc35",
+    "semantic_hash": "c1b1deecef1d548ff19bee2fda12fc35"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\architecture\\module-conventions.md": {
+    "mtime": 1778870907.327361,
+    "ast_hash": "ecb2dae75a51257591bacbe1275b9ec8",
+    "semantic_hash": "ecb2dae75a51257591bacbe1275b9ec8"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\architecture\\node-execution-model.md": {
+    "mtime": 1778871288.406018,
+    "ast_hash": "b81ffce79c0d8e7844596e41bf5a5005",
+    "semantic_hash": "b81ffce79c0d8e7844596e41bf5a5005"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\architecture\\persistence-strategy.md": {
+    "mtime": 1778814600.5476427,
+    "ast_hash": "945b2b1b2b80cf20b6fbcf998d9ba88e",
+    "semantic_hash": "945b2b1b2b80cf20b6fbcf998d9ba88e"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\architecture\\tech-stack.md": {
+    "mtime": 1778870835.7859612,
+    "ast_hash": "1982f06d8b32447db9ae7387b5e464c4",
+    "semantic_hash": "1982f06d8b32447db9ae7387b5e464c4"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\architecture\\traceability-model.md": {
+    "mtime": 1778871378.9929373,
+    "ast_hash": "1b099e6d97706727451b982a112ccfb5",
+    "semantic_hash": "1b099e6d97706727451b982a112ccfb5"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\architecture\\versioning-strategy.md": {
+    "mtime": 1778869106.5530913,
+    "ast_hash": "22e42b2248e768305bd05c3a85264bdd",
+    "semantic_hash": "22e42b2248e768305bd05c3a85264bdd"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\branding\\brand-guidelines.md": {
+    "mtime": 1778869824.1259232,
+    "ast_hash": "eda5bc17513068a17812f0ce5e9e32bf",
+    "semantic_hash": "eda5bc17513068a17812f0ce5e9e32bf"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\branding\\naming-conventions.md": {
+    "mtime": 1778801952.2442276,
+    "ast_hash": "0d283b238edda42df1840ef450fa113d",
+    "semantic_hash": "0d283b238edda42df1840ef450fa113d"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\branding\\ui-language.md": {
+    "mtime": 1778870646.2336464,
+    "ast_hash": "d5bb12bb176862b00b8b62d160d6f53a",
+    "semantic_hash": "d5bb12bb176862b00b8b62d160d6f53a"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\domain\\engineering-artifact-taxonomy.md": {
+    "mtime": 1778869824.1862943,
+    "ast_hash": "658d6ba053083e571c25728208323c25",
+    "semantic_hash": "658d6ba053083e571c25728208323c25"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\domain\\estimation-domain.md": {
+    "mtime": 1778871476.551022,
+    "ast_hash": "a2980821d04568de19c9aa70a03ae9ab",
+    "semantic_hash": "a2980821d04568de19c9aa70a03ae9ab"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\domain\\functional-requirements-domain.md": {
+    "mtime": 1778871440.7133024,
+    "ast_hash": "c106b7a7c72f38972d29e73d8e3dce2d",
+    "semantic_hash": "c106b7a7c72f38972d29e73d8e3dce2d"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\domain\\personas-domain.md": {
+    "mtime": 1778871458.8186214,
+    "ast_hash": "f7038d7ec9a6d06222a0007aa29156af",
+    "semantic_hash": "f7038d7ec9a6d06222a0007aa29156af"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\domain\\risk-analysis-domain.md": {
+    "mtime": 1778871487.1429017,
+    "ast_hash": "068b4a260471ac03fd43338bbc4fc98c",
+    "semantic_hash": "068b4a260471ac03fd43338bbc4fc98c"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\domain\\stakeholder-domain.md": {
+    "mtime": 1778871467.0259416,
+    "ast_hash": "9ef18169beaf4fccbd55bbb25bbd349c",
+    "semantic_hash": "9ef18169beaf4fccbd55bbb25bbd349c"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\domain\\typed-edge-semantics.md": {
+    "mtime": 1778869824.2274165,
+    "ast_hash": "b3172e93fb19418774c1b9368d8295ff",
+    "semantic_hash": "b3172e93fb19418774c1b9368d8295ff"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\domain\\user-stories-domain.md": {
+    "mtime": 1778871450.5811093,
+    "ast_hash": "acfc8f6136341fdbfaaef270b02cb613",
+    "semantic_hash": "acfc8f6136341fdbfaaef270b02cb613"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\meta\\ai-role-separation.md": {
+    "mtime": 1778869888.8205962,
+    "ast_hash": "d4a864bbeb112383e8f699d14c95d749",
+    "semantic_hash": "d4a864bbeb112383e8f699d14c95d749"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\meta\\graph-maintenance.md": {
+    "mtime": 1778870647.261093,
+    "ast_hash": "397447913be0d28f221ae655deb81614",
+    "semantic_hash": "397447913be0d28f221ae655deb81614"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\meta\\orchestration-model.md": {
+    "mtime": 1778869889.0216093,
+    "ast_hash": "6a79480de4395ae0e9974eea4a3e9caa",
+    "semantic_hash": "6a79480de4395ae0e9974eea4a3e9caa"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\meta\\repository-cognition.md": {
+    "mtime": 1778870649.2470498,
+    "ast_hash": "1e67490302d276b3aba75d8d2fbc3efc",
+    "semantic_hash": "1e67490302d276b3aba75d8d2fbc3efc"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\meta\\repository-governance.md": {
+    "mtime": 1778869889.2236578,
+    "ast_hash": "02c97a40ecb444561ade6f785c34beb3",
+    "semantic_hash": "02c97a40ecb444561ade6f785c34beb3"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\roadmap\\CURRENT_PHASE.md": {
+    "mtime": 1778866925.1821003,
+    "ast_hash": "28cebddadff10e9831fcf3ee278c72fb",
+    "semantic_hash": "28cebddadff10e9831fcf3ee278c72fb"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\roadmap\\PHASE_10_EXPORTS.md": {
+    "mtime": 1778867139.369821,
+    "ast_hash": "ec26961749f03a6205609725c55ef895",
+    "semantic_hash": "ec26961749f03a6205609725c55ef895"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\roadmap\\PHASE_1A_REPOSITORY_FOUNDATION.md": {
+    "mtime": 1778870651.1001415,
+    "ast_hash": "3eadeb2efd11d41fe2eb1fc76d6ee531",
+    "semantic_hash": "3eadeb2efd11d41fe2eb1fc76d6ee531"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\roadmap\\PHASE_1B_SPECIFICATION.md": {
+    "mtime": 1778871548.5826645,
+    "ast_hash": "420059acdcd4c8915b1deda239a79e26",
+    "semantic_hash": "420059acdcd4c8915b1deda239a79e26"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\roadmap\\PHASE_2_SYSTEM_ARCHITECTURE.md": {
+    "mtime": 1778869824.3624027,
+    "ast_hash": "47f776511a1e62ec41e8777c3b93ade8",
+    "semantic_hash": "47f776511a1e62ec41e8777c3b93ade8"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\roadmap\\PHASE_3_CANVAS_ENGINE.md": {
+    "mtime": 1778869245.249392,
+    "ast_hash": "ec19aa6a02edfc6a5ce94df1100f682e",
+    "semantic_hash": "ec19aa6a02edfc6a5ce94df1100f682e"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\roadmap\\PHASE_4_NODE_FRAMEWORK.md": {
+    "mtime": 1778869245.3185976,
+    "ast_hash": "78fce614ca0cb4b43bbed952fa49d241",
+    "semantic_hash": "78fce614ca0cb4b43bbed952fa49d241"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\roadmap\\PHASE_5_SDLC_NODES.md": {
+    "mtime": 1778869824.4488907,
+    "ast_hash": "01f80c1382e1762ecb8988faeb5a3bf7",
+    "semantic_hash": "01f80c1382e1762ecb8988faeb5a3bf7"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\roadmap\\PHASE_6_FUNCTION_POINT_ANALYSIS.md": {
+    "mtime": 1778869245.4080603,
+    "ast_hash": "d6a0ca6f4795f70310c3ae039480d56c",
+    "semantic_hash": "d6a0ca6f4795f70310c3ae039480d56c"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\roadmap\\PHASE_7_AI_FEATURES.md": {
+    "mtime": 1778869245.4637017,
+    "ast_hash": "44a1095a335cc84111bc055fc129d41e",
+    "semantic_hash": "44a1095a335cc84111bc055fc129d41e"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\roadmap\\PHASE_8_COLLABORATION.md": {
+    "mtime": 1778869245.499162,
+    "ast_hash": "288e16cea6ad6c27ac2e54b41845def2",
+    "semantic_hash": "288e16cea6ad6c27ac2e54b41845def2"
+  },
+  "C:\\Users\\USER\\dev\\EngraphSW\\docs\\roadmap\\PHASE_9_VERSIONING.md": {
+    "mtime": 1778869245.56574,
+    "ast_hash": "91c5c165d6d1125fd5a8fb300b792c08",
+    "semantic_hash": "91c5c165d6d1125fd5a8fb300b792c08"
+  }
+}

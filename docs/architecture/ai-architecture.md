@@ -261,16 +261,16 @@ AI outputs follow a consistent lifecycle before entering the graph:
 
 ```
 AI Operation Executes
-↓
+|
 Output Produced and Validated Against Domain Constraints
-↓
+|
 Output Staged as Candidate (not committed to graph)
-↓
+|
 User Reviews Candidate
-↓
-User Accepts → Candidate Committed to Graph as Artifact or Annotation
-User Rejects → Candidate Discarded
-User Edits → Modified Candidate Committed
+|
+User Accepts -> Candidate Committed to Graph as Artifact or Annotation
+User Rejects -> Candidate Discarded
+User Edits -> Modified Candidate Committed
 ```
 
 AI outputs must never bypass user review and be committed directly to the graph.

@@ -279,12 +279,12 @@ CONTAINS edges form a tree. A WBS Package may have at most one parent (one incom
 
 **Propagation contract**
 
-**Downward propagation (parent → child):**
+**Downward propagation (parent -> child):**
 When a parent WBS Package changes its scope definition or is marked stale:
 * all child packages are marked **stale**
 * propagation boundary: **hard**
 
-**Upward aggregation (child → parent):**
+**Upward aggregation (child -> parent):**
 When a child WBS Package's estimation or execution state changes:
 * the parent package's aggregated estimation is flagged for recalculation
 * this is an **upward aggregation** propagation, not a downward staleness cascade
@@ -502,20 +502,20 @@ Quick reference for the propagation behavior of each edge type:
 
 | Edge Type | Propagation Direction | Boundary Type |
 |---|---|---|
-| DERIVED_FROM | Downstream (source change → derived artifact stale) | Hard |
-| REFINES | Downstream (base change → refining artifact stale) | Soft |
-| CONTEXTUALIZES | Downstream (context change → notification) | Soft |
-| INFLUENCES | Downstream (stakeholder change → notification) | Soft |
-| IMPLEMENTS | Downstream (requirement change → WBS stale) | Hard |
-| CONTAINS (downward) | Downstream (parent scope change → children stale) | Hard |
-| CONTAINS (upward) | Upward aggregation (child estimate change → parent recalculation) | Hard |
-| ESTIMATES | Downstream (scope change → estimation stale) | Hard |
-| EXPOSES | Downstream (artifact change → risk stale) | Soft |
-| IMPACTS | Downstream (risk severity change → notification) | Soft |
-| IMPACTS | Downstream (risk materializes → impacted artifacts stale) | Hard |
-| MITIGATES | Downstream (WBS change → risk stale) | Hard |
-| MITIGATES | Upstream notification (risk severity change → WBS notification) | Soft |
-| TRACES_TO | Downstream (target change → notification) | Soft |
+| DERIVED_FROM | Downstream (source change -> derived artifact stale) | Hard |
+| REFINES | Downstream (base change -> refining artifact stale) | Soft |
+| CONTEXTUALIZES | Downstream (context change -> notification) | Soft |
+| INFLUENCES | Downstream (stakeholder change -> notification) | Soft |
+| IMPLEMENTS | Downstream (requirement change -> WBS stale) | Hard |
+| CONTAINS (downward) | Downstream (parent scope change -> children stale) | Hard |
+| CONTAINS (upward) | Upward aggregation (child estimate change -> parent recalculation) | Hard |
+| ESTIMATES | Downstream (scope change -> estimation stale) | Hard |
+| EXPOSES | Downstream (artifact change -> risk stale) | Soft |
+| IMPACTS | Downstream (risk severity change -> notification) | Soft |
+| IMPACTS | Downstream (risk materializes -> impacted artifacts stale) | Hard |
+| MITIGATES | Downstream (WBS change -> risk stale) | Hard |
+| MITIGATES | Upstream notification (risk severity change -> WBS notification) | Soft |
+| TRACES_TO | Downstream (target change -> notification) | Soft |
 
 Hard boundary: staleness cascades automatically through the edge without pause.
 
@@ -565,12 +565,12 @@ The following edge types are anticipated as the artifact taxonomy expands into a
 
 | Anticipated Edge Type | Anticipated Relationship |
 |---|---|
-| `SPECIFIES` | Specification Artifact → Functional Requirement |
-| `VALIDATES` | Verification Artifact → Functional Requirement or User Story |
-| `SUPERSEDES` | Requirement → Requirement (replacing a prior version) |
-| `CONFLICTS_WITH` | Requirement → Requirement (detected contradiction) |
-| `DEPENDS_ON` | Architectural Artifact → Architectural Artifact |
-| `REALIZES` | Architectural Component → Functional Requirement |
+| `SPECIFIES` | Specification Artifact -> Functional Requirement |
+| `VALIDATES` | Verification Artifact -> Functional Requirement or User Story |
+| `SUPERSEDES` | Requirement -> Requirement (replacing a prior version) |
+| `CONFLICTS_WITH` | Requirement -> Requirement (detected contradiction) |
+| `DEPENDS_ON` | Architectural Artifact -> Architectural Artifact |
+| `REALIZES` | Architectural Component -> Functional Requirement |
 
 These edge types must not be implemented until their corresponding artifact categories are formally introduced through the taxonomy evolution process.
 

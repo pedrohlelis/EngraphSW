@@ -1,5 +1,13 @@
 # Repository Governance
 
+## Related Documents
+
+* [AI Role Separation](ai-role-separation.md) — defines the behavioral boundary between orchestrator and implementer roles
+* [Orchestration Model](orchestration-model.md) — defines the operational flows through which governance is applied
+* [Information Boundaries](../../.claude/instructions/information-boundaries.md) — defines which governance documents are visible to each role
+
+---
+
 ## Purpose
 
 This document defines the governance system of the EngraphSW repository.
@@ -117,19 +125,19 @@ When a conflict exists between layers, authority is resolved in this order:
 
 ```
 User
-↓
+|
 Constitutional Layer (CLAUDE.md)
-↓
+|
 Governance Layer (docs/meta/)
-↓
+|
 Architecture Layer (docs/adr/, docs/architecture/)
-↓
+|
 Domain Layer (docs/domain/)
-↓
+|
 Roadmap Layer (docs/roadmap/)
-↓
+|
 Operational Layer (.claude/)
-↓
+|
 Implementer
 ```
 

@@ -1,5 +1,14 @@
 # PHASE 1A — Repository Foundation & Cognitive Stabilization
 
+## Related Documents
+
+* [Repository Governance](../meta/repository-governance.md) — the governance system established by this phase
+* [Orchestration Model](../meta/orchestration-model.md) — the AI operational model established by this phase
+* [AI Role Separation](../meta/ai-role-separation.md) — the role boundary system established by this phase
+* [Phase 1B — Specification Hardening](PHASE_1B_SPECIFICATION.md) — the next phase
+
+---
+
 # Objective
 
 Before implementation begins, establish the foundational repository cognition, governance systems, architectural documentation, domain semantics, AI operational structure, and engineering constraints required for long-term scalable development.
@@ -250,18 +259,18 @@ Expected structure:
 
 ```text
 project/
-├── .claude/
-├── docs/
-│   ├── adr/
-│   ├── architecture/
-│   ├── branding/
-│   ├── domain/
-│   ├── meta/
-│   └── roadmap/
-├── app/
-├── modules/
-├── prisma/
-└── package.json
+  .claude/
+  docs/
+    adr/
+    architecture/
+    branding/
+    domain/
+    meta/
+    roadmap/
+  app/
+  modules/
+  prisma/
+  package.json
 ```
 
 Ensure:

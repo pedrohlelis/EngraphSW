@@ -1,5 +1,13 @@
 # Versioning Strategy
 
+## Related Documents
+
+* [Architecture: Persistence Strategy](persistence-strategy.md) — defines the append-only execution history and soft-deletion rules that underpin version durability
+* [Architecture: Dependency Propagation](dependency-propagation.md) — rollback triggers invalidation cascades; versioning must coordinate with propagation semantics
+* [Architecture: Traceability Model](traceability-model.md) — version events should be traceable through the graph alongside artifact relationships
+
+---
+
 ## Purpose
 
 Define how artifact revisions are created, compared, restored, and audited across the workspace.

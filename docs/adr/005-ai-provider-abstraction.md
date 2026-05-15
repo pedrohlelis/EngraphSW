@@ -4,6 +4,15 @@
 
 Accepted
 
+## Metadata
+
+| Field | Value |
+|---|---|
+| Domain | AI Infrastructure |
+| Phase Introduced | Phase 1A |
+| Related ADRs | [ADR-001 Modular Monolith](001-modular-monolith.md), [ADR-004 Event-Driven Communication](004-event-driven-communication.md) |
+| Related Architecture | [AI Architecture](../architecture/ai-architecture.md), [Modular Boundaries](../architecture/modular-boundaries.md) |
+
 ---
 
 # Context

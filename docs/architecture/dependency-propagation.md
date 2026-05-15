@@ -165,7 +165,7 @@ The graph supports two traversal directions with distinct semantic purposes.
 
 Used for: staleness propagation, invalidation cascades, impact analysis
 
-Direction: source → dependents
+Direction: source -> dependents
 
 When node A changes, downstream propagation traverses the graph forward to identify all nodes whose outputs depend on A.
 
@@ -173,7 +173,7 @@ When node A changes, downstream propagation traverses the graph forward to ident
 
 Used for: provenance analysis, dependency inspection, impact justification
 
-Direction: node → its sources
+Direction: node -> its sources
 
 When a user asks "why is this node stale?" or "what does this node depend on?", upstream traversal traces back through the graph to the contributing sources.
 
@@ -183,7 +183,7 @@ Upstream traversal does not trigger staleness. It is a read operation.
 
 Downstream propagation and upstream traversal must produce symmetric results over the same graph topology.
 
-If A → B → C (downstream), then C → B → A (upstream).
+If A -> B -> C (downstream), then C -> B -> A (upstream).
 
 Asymmetry in traversal results indicates a data integrity issue in edge storage.
 

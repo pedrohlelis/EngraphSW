@@ -4,6 +4,15 @@
 
 Accepted
 
+## Metadata
+
+| Field | Value |
+|---|---|
+| Domain | Deployment & System Architecture |
+| Phase Introduced | Phase 1A |
+| Related ADRs | [ADR-004 Event-Driven Communication](004-event-driven-communication.md) |
+| Related Architecture | [Modular Boundaries](../architecture/modular-boundaries.md) |
+
 ---
 
 # Context

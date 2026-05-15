@@ -1,0 +1,43 @@
+# Obsidian editor configuration — not repository artifacts
+.obsidian/
+
+# Graphify output — tool output, not source content
+graphify-out/manifest.json    # mtime-based, breaks after git clone
+graphify-out/cost.json        # local only
+# graphify-out/cache/         # optional: commit for speed, skip to keep repo small
+
+# Stray graphify cache directories in subdirectories (e.g. .claude/graphify-out/)
+.claude/graphify-out/
+.agents/graphify-out/
+
+# Node / Next.js
+node_modules/
+.next/
+dist/
+out/
+build/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+*.suo
+*.user
+
+# Logs
+*.log
+npm-debug.log*
+
+# Prisma
+prisma/dev.db
+prisma/dev.db-journal
+
+# Redis
+dump.rdb

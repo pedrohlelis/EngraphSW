@@ -30,21 +30,21 @@ Modules expose only their public interface. Internal implementation is private t
 
 ```
 modules/
-├── workspace/       — workspace lifecycle and canvas session management
-├── graph/           — graph operations, edge management, traversal
-├── nodes/           — node registry, plugin system, node lifecycle
-├── execution/       — node execution engine, state, history
-├── traceability/    — impact analysis, dependency index, traversal
-├── ai/              — provider abstraction, prompt templates, AI workflows
-├── collaboration/   — realtime presence and multi-user editing
-├── versioning/      — graph versioning, snapshots, history
-├── requirements/    — functional requirements artifact domain
-├── estimation/      — function point analysis, size estimation
-├── user-stories/    — user story artifact domain
-├── personas/        — persona artifact domain
-├── stakeholders/    — stakeholder artifact domain
-├── risk/            — risk analysis artifact domain
-└── shared/          — value objects, shared types, domain primitives
++-- workspace/       — workspace lifecycle and canvas session management
++-- graph/           — graph operations, edge management, traversal
++-- nodes/           — node registry, plugin system, node lifecycle
++-- execution/       — node execution engine, state, history
++-- traceability/    — impact analysis, dependency index, traversal
++-- ai/              — provider abstraction, prompt templates, AI workflows
++-- collaboration/   — realtime presence and multi-user editing
++-- versioning/      — graph versioning, snapshots, history
++-- requirements/    — functional requirements artifact domain
++-- estimation/      — function point analysis, size estimation
++-- user-stories/    — user story artifact domain
++-- personas/        — persona artifact domain
++-- stakeholders/    — stakeholder artifact domain
++-- risk/            — risk analysis artifact domain
++-- shared/          — value objects, shared types, domain primitives
 ```
 
 **Anticipated future module:** As multi-node execution flows, propagation coordination, and execution planning mature, the `execution/` module may need to extract a dedicated `orchestration/` or `workflow/` bounded context responsible for scheduling, execution planning, and multi-step coordination. This is not in scope for current phases. The boundary is noted here to prevent premature scope expansion of `execution/` and to anticipate the extraction point.
@@ -279,12 +279,12 @@ Modules may depend on:
 ### Visualization
 
 ```
-shared          ← depended on by all
-ai              ← depended on by domain modules and execution
-nodes           ← depended on by artifact domain modules
-graph           ← depended on by traceability, execution, versioning, collaboration
-execution       ← depended on by traceability (for staleness)
-workspace       ← depended on by collaboration
+shared          <- depended on by all
+ai              <- depended on by domain modules and execution
+nodes           <- depended on by artifact domain modules
+graph           <- depended on by traceability, execution, versioning, collaboration
+execution       <- depended on by traceability (for staleness)
+workspace       <- depended on by collaboration
 ```
 
 Circular dependencies between modules are never permitted.

@@ -2,20 +2,22 @@
 
 ## Active Phase
 
-PHASE 1A — Repository Foundation & Cognitive Stabilization
+PHASE 1B — Specification Hardening & Implementation Readiness
 
-# Status
+## Status
 
 In Progress
 
-# Scope Boundary
+## Scope Boundary
 
-Current implementation work MUST remain strictly inside the scope of PHASE 1A.
+Current work MUST remain strictly inside the scope of PHASE 1B.
 
-Do not begin implementation of future phases unless explicitly instructed.
+Phase 1B is documentation and specification only. Do not write any production application code, scaffold any source directories, or begin Phase 2 implementation work unless explicitly instructed.
 
-Future phases may inform architectural decisions, but their implementation is prohibited until activated.
+## Phase Definition
 
-# Phase Advancement Rule
+See [PHASE_1B_SPECIFICATION.md](PHASE_1B_SPECIFICATION.md) for the complete scope, work streams, sequencing, and success criteria.
+
+## Phase Advancement Rule
 
 The next phase may only begin after explicit user approval.

@@ -1,5 +1,12 @@
 # EngraphSW — Brand Guidelines
 
+## Related Documents
+
+* [Naming Conventions](naming-conventions.md) — defines the engineering terminology and language rules that brand language must respect
+* [UI Language Guidelines](ui-language.md) — defines the tone, copy patterns, and interaction vocabulary for the product surface
+
+---
+
 ## Purpose
 
 This document defines the long-term brand identity, visual philosophy, and experiential direction of EngraphSW.
@@ -131,10 +138,10 @@ Accent usage:
 - dependency emphasis
 
 Semantic colors:
-- success → muted green
-- warning → amber
-- error → muted red
-- informational → cool muted blue
+- success -> muted green
+- warning -> amber
+- error -> muted red
+- informational -> cool muted blue
 
 Avoid:
 - rainbow dashboards

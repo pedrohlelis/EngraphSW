@@ -1,0 +1,36 @@
+# Graphify ignore rules — same syntax as .gitignore
+
+# Obsidian editor configuration
+# These are UI state files (plugin registry, workspace commands, graph view settings)
+# Graphify extracts their JSON keys and UI component names as phantom nodes
+.obsidian/
+
+# Graphify output — avoid circular self-analysis
+graphify-out/
+
+# Claude Code settings — produces phantom nodes from hook configurations
+.claude/settings.json
+.claude/settings.local.json
+
+# GitHub integration files — copilot-instructions.md produces phantom nodes
+# not part of the repository cognitive layer
+.github/
+
+# Skills package manager lock file — JSON keys become phantom nodes
+skills-lock.json
+
+# Third-party skills managed by skills package manager
+# Contains community skill docs with diagram syntax, references, and terminology
+# that would produce hundreds of phantom nodes in the graph
+.agents/
+
+# Node / build artifacts
+node_modules/
+.next/
+dist/
+out/
+build/
+
+# Environment and secrets
+.env
+.env.*

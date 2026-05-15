@@ -1,5 +1,13 @@
 # Orchestration Model
 
+## Related Documents
+
+* [Repository Governance](repository-governance.md) — defines the authority model and governance layer within which orchestration operates
+* [AI Role Separation](ai-role-separation.md) — defines the boundary between orchestrator and implementer roles that this model operationalizes
+* [Information Boundaries](../../.claude/instructions/information-boundaries.md) — defines which documents each role may access during execution
+
+---
+
 ## Purpose
 
 This document defines the operational model for AI-assisted engineering inside the EngraphSW repository.
@@ -83,18 +91,18 @@ When new implementation work is requested:
 
 ```
 User requests work
-↓
+|
 Orchestrator assesses:
   - Is this within active phase scope?
   - Are relevant ADRs established?
   - Are architecture documents sufficient?
   - Are domain semantics clear?
-↓
+|
 If gaps exist:
-  Orchestrator surfaces gaps → User decides → Gaps resolved before implementation
-↓
+  Orchestrator surfaces gaps -> User decides -> Gaps resolved before implementation
+|
 If scope is clear:
-  Orchestrator confirms authorization → Implementer executes
+  Orchestrator confirms authorization -> Implementer executes
 ```
 
 The orchestrator must not silently allow out-of-scope work to proceed.
@@ -107,19 +115,19 @@ When the user requests phase advancement:
 
 ```
 User signals phase completion
-↓
+|
 Orchestrator reviews active phase completion criteria
-↓
+|
 Orchestrator identifies any open gaps
-↓
+|
 Orchestrator surfaces assessment to user
-↓
+|
 User makes explicit advancement decision
-↓
+|
 CURRENT_PHASE.md is updated
-↓
+|
 Orchestrator acknowledges new phase scope
-↓
+|
 Implementer begins work under new phase scope
 ```
 
@@ -133,19 +141,19 @@ When implementation work surfaces a governance conflict:
 
 ```
 Implementer encounters conflict with governance constraint
-↓
+|
 Implementer must not resolve conflict autonomously
-↓
+|
 Implementer surfaces conflict explicitly
-↓
+|
 Orchestrator evaluates conflict against authority hierarchy
-↓
+|
 If resolvable within existing governance:
-  Orchestrator clarifies → Implementer proceeds
-↓
+  Orchestrator clarifies -> Implementer proceeds
+|
 If genuinely ambiguous or undecided:
-  Orchestrator surfaces to user → User decides → ADR or governance document updated
-↓
+  Orchestrator surfaces to user -> User decides -> ADR or governance document updated
+|
 Implementation proceeds only after conflict is resolved
 ```
 
@@ -157,19 +165,19 @@ When architecture is being designed or evaluated:
 
 ```
 Orchestrator identifies architectural question or risk
-↓
+|
 Orchestrator reasons against:
   - CLAUDE.md constitutional principles
   - Accepted ADRs
   - Architecture documents
   - Domain semantics
   - Active phase scope
-↓
+|
 Orchestrator articulates tradeoffs and long-term implications
-↓
+|
 If a new architectural decision is required:
-  Orchestrator drafts ADR → User reviews → ADR accepted
-↓
+  Orchestrator drafts ADR -> User reviews -> ADR accepted
+|
 Architecture document updated to reflect decision
 ```
 
@@ -184,15 +192,15 @@ Orchestrator detects:
   - Missing referenced document
   - Internal contradiction between documents
   - Stale or conflicting governance constraint
-↓
+|
 Orchestrator surfaces integrity failure explicitly
-↓
+|
 Orchestrator does not resolve silently
-↓
+|
 User authorizes repair
-↓
+|
 Orchestrator authors or updates the affected documents
-↓
+|
 Integrity is restored before implementation continues
 ```
 

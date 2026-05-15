@@ -110,7 +110,7 @@ Preferred:
 - “Create a Functional Requirements Node to begin modeling system behavior.”
 
 Avoid:
-- “Looks lonely here 👀”
+- “Looks lonely here”
 - “Let’s get productive!”
 
 ---

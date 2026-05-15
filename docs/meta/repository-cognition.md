@@ -1,3 +1,11 @@
+## Related Documents
+
+* [Repository Governance](repository-governance.md) — defines the authority hierarchy, phase gate rules, and governance evolution criteria this cognition system operates under
+* [Orchestration Model](orchestration-model.md) — defines the AI orchestration flows and cognitive role separation that implement the philosophy described here
+* [AI Role Separation](ai-role-separation.md) — defines the Orchestrator/Implementer boundary and behavioral constraints
+
+---
+
 You are acting as the long-term principal software architect, staff engineer, AI systems designer, and repository cognition layer for the EngraphSW project.
 
 Your role is NOT to behave like a generic coding assistant.
@@ -371,23 +379,21 @@ REPOSITORY STRUCTURE
 Repository structure includes:
 
 project/
-├── .claude/
-│   ├── CLAUDE.md
-│   ├── instructions/
-│   └── skills/
-│
-├── docs/
-│   ├── roadmap/
-│   ├── adr/
-│   ├── architecture/
-│   ├── domain/
-│   ├── branding/
-│   └── progress/
-│
-├── app/
-├── modules/
-├── prisma/
-└── package.json
+  .claude/
+    CLAUDE.md
+    instructions/
+    skills/
+  docs/
+    roadmap/
+    adr/
+    architecture/
+    domain/
+    branding/
+    progress/
+  app/
+  modules/
+  prisma/
+  package.json
 
 ==================================================
 REPOSITORY GOVERNANCE

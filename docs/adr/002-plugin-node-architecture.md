@@ -4,6 +4,15 @@
 
 Accepted
 
+## Metadata
+
+| Field | Value |
+|---|---|
+| Domain | Node System |
+| Phase Introduced | Phase 1A |
+| Related ADRs | [ADR-003 Graph as System of Record](003-graph-system-of-record.md) |
+| Related Architecture | [Node Execution Model](../architecture/node-execution-model.md) |
+
 ---
 
 # Context

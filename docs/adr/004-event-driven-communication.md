@@ -4,6 +4,15 @@
 
 Accepted
 
+## Metadata
+
+| Field | Value |
+|---|---|
+| Domain | Inter-Module Communication |
+| Phase Introduced | Phase 1A |
+| Related ADRs | [ADR-001 Modular Monolith](001-modular-monolith.md), [ADR-003 Graph as System of Record](003-graph-system-of-record.md) |
+| Related Architecture | [Modular Boundaries](../architecture/modular-boundaries.md), [Dependency Propagation](../architecture/dependency-propagation.md), [Persistence Strategy](../architecture/persistence-strategy.md) |
+
 ---
 
 # Context

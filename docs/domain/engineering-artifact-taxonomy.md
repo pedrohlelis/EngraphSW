@@ -240,22 +240,22 @@ Specific edge types, semantics, and propagation rules are defined in:
 
 ### General Principles
 
-**Context → Requirements**
+**Context -> Requirements**
 Context artifacts provide the human and organizational grounding for requirements. Personas and stakeholders are upstream of requirements in the traceability graph.
 
-**Requirements → Planning**
+**Requirements -> Planning**
 Requirements are the primary source for WBS decomposition and estimation. A WBS package should be traceable to the requirements it implements.
 
-**Requirements → Risk**
+**Requirements -> Risk**
 Requirements can expose risks. Risks can challenge requirements. This relationship is bidirectional in semantic impact.
 
-**Planning → Planning (hierarchical)**
+**Planning -> Planning (hierarchical)**
 WBS packages may contain sub-packages forming a decomposition hierarchy. Estimation anchors to WBS packages and aggregates upward.
 
-**Risk → Planning**
+**Risk -> Planning**
 Risks impact WBS packages and estimates. A risk that materializes may alter the scope or cost of associated planning artifacts.
 
-**Any → Any (traceability)**
+**Any -> Any (traceability)**
 Traceability edges may exist between artifacts of any category when the relationship is semantically justified. Traceability is not constrained to category boundaries.
 
 ### Prohibited Relationships
@@ -276,7 +276,7 @@ It must be actively protected as the platform grows.
 |---|---|---|
 | What it represents | An engineering concern | A unit of human work |
 | Identity | Stable semantic entity | Operational record |
-| Lifecycle | Created → Active → Stale → Retired | Open → In Progress → Done |
+| Lifecycle | Created -> Active -> Stale -> Retired | Open -> In Progress -> Done |
 | Primary relationships | Traceability, dependency, impact | Assignment, scheduling, status |
 | Graph role | Node in the semantic graph | Row in a work tracking system |
 | AI role | Analysis, generation, consistency | Automation, assignment, routing |

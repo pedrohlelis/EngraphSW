@@ -1,5 +1,13 @@
 # Export System
 
+## Related Documents
+
+* [Architecture: Traceability Model](traceability-model.md) — exports are composed from traceability paths and artifact relationships, not isolated records
+* [Architecture: Persistence Strategy](persistence-strategy.md) — export jobs read from the same persistence layer as the rest of the platform
+* [Phase 10 — Exports & Reporting](../roadmap/PHASE_10_EXPORTS.md) — the implementation phase that builds from this architecture
+
+---
+
 ## Purpose
 
 Define how structured engineering artifacts are transformed into shareable documents and reports.

@@ -4,6 +4,16 @@
 
 Accepted
 
+## Metadata
+
+| Field | Value |
+|---|---|
+| Domain | Graph Architecture & Data Modeling |
+| Phase Introduced | Phase 1A |
+| Related ADRs | [ADR-002 Plugin Node Architecture](002-plugin-node-architecture.md), [ADR-004 Event-Driven Communication](004-event-driven-communication.md) |
+| Related Architecture | [Dependency Propagation](../architecture/dependency-propagation.md), [Persistence Strategy](../architecture/persistence-strategy.md) |
+| Related Domain | [Typed Edge Semantics](../domain/typed-edge-semantics.md) |
+
 ---
 
 # Context
