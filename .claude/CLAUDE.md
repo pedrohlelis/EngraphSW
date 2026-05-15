@@ -1,163 +1,251 @@
-You are a senior full-stack software architect, staff engineer, and AI systems designer working on an AI-native SDLC workspace platform.
+# EngraphSW Repository Constitution
 
-This file is the architectural constitution for the repository. It defines the permanent product identity, engineering constraints, and design principles. Detailed behavior belongs in docs/architecture/, docs/domain/, docs/roadmap/, or .claude/skills/.
+EngraphSW is an AI-native SDLC engineering workspace built around graph-based software engineering artifacts.
 
-All implementation decisions should align with this constitution unless a newer ADR or architecture document explicitly overrides it.
+This document defines the permanent architectural identity, semantic philosophy, and non-negotiable engineering principles of the repository.
 
-Repository guidance:
+It is the constitutional layer of the system.
 
-- docs/architecture/ contains deep technical system design and execution models
-- docs/domain/ contains SDLC artifact semantics and business/domain rules
-- docs/roadmap/ contains phased implementation plans and deliverables
-- .claude/skills/ contains specialized engineering heuristics and implementation guidance
-- docs/adr/ contains architecture decision records and overrides
+Operational behavior, implementation guidance, roadmap execution, governance processes, and AI role definitions belong in specialized repository documents.
 
-==================================================
-PRODUCT VISION
-==================================================
+---
 
-The platform is a graph-based SDLC engineering workspace.
+# Repository Structure
 
-Users model software engineering artifacts as interconnected nodes on an infinite canvas. The graph is a software engineering knowledge graph, not a task board or generic automation system.
+Repository cognition is intentionally layered.
 
-The platform should help teams model, organize, analyze, estimate, and trace early-stage software engineering work with AI-assisted reasoning and visual graph intelligence.
+## Governance & Cognition
 
-==================================================
-IMPORTANT PRODUCT CONSTRAINTS
-==================================================
+* `docs/meta/`
+  Repository governance, cognition systems, orchestration philosophy, and AI role separation.
 
-This platform is not a Kanban board, Trello clone, generic project management tool, generic automation tool, or BPMN system.
+## Architecture
 
-It is an SDLC engineering workspace for artifacts such as requirements, personas, stories, stakeholders, estimation models, risk models, and related traceability structures.
+* `docs/architecture/`
+  Technical system design, graph runtime architecture, execution models, infrastructure strategy, and platform internals.
 
-The core domain entities are engineering artifacts, not tasks.
+## Domain Modeling
 
-Avoid generic SaaS dashboard patterns and task-management abstractions that weaken the engineering-graph-centric workflow model.
+* `docs/domain/`
+  SDLC semantics, artifact definitions, traceability rules, and engineering domain concepts.
 
-==================================================
-DOMAIN MODELING PHILOSOPHY
-==================================================
+## Roadmap & Phases
 
-Model engineering knowledge as structured domain objects with semantic relationships, not as loose documents.
+* `docs/roadmap/`
+  Phase-based implementation planning, deliverables, sequencing, and active execution scope.
 
-The graph should support traceability, dependency awareness, context propagation, impact analysis, consistency validation, estimation propagation, and artifact generation.
+## Architecture Decisions
 
-The graph is the system of record for engineering relationships, execution dependencies, and traceability intelligence.
+* `docs/adr/`
+  Architecture Decision Records representing accepted architectural decisions and overrides.
 
-==================================================
-TECH STACK & ARCHITECTURE
-==================================================
+## Branding & Product Identity
 
-Frontend:
-- Next.js App Router
-- React
-- TypeScript
+* `docs/branding/`
+  Product naming, visual identity, tone, UI direction, design language, and brand consistency guidance.
 
-Canvas and graph engine:
-- React Flow / XYFlow
+## AI Operational Systems
 
-State management:
-- Zustand with separate stores by concern
+* `.claude/agents/`
+  AI cognitive roles and behavioral boundaries.
 
-UI system:
-- TailwindCSS
-- shadcn/ui
+* `.claude/instructions/`
+  Operational constraints and execution rules.
 
-Backend and data:
-- Next.js Route Handlers
-- PostgreSQL
-- Prisma ORM
+* `.claude/skills/`
+  Specialized engineering heuristics and implementation expertise.
 
-Validation and contracts:
-- Zod
+---
 
-Realtime and background processing:
-- Liveblocks
-- BullMQ
-- Redis
+# Product Identity
 
-AI architecture:
-- provider abstraction for OpenAI and Anthropic
+EngraphSW is a graph-native SDLC engineering platform.
 
-==================================================
-VISUAL DESIGN DIRECTION
-==================================================
+The platform models software engineering artifacts as interconnected nodes inside a visual graph workspace.
 
-The interface should feel like a professional engineering operating system: dark-first, dense, restrained, and focused.
+The graph represents:
 
-Use a warm amber/orange accent sparingly for selection, highlights, and active states. Prefer subtle borders, layered dark surfaces, compact controls, strong typography, and minimal visual noise.
+* engineering relationships
+* traceability
+* dependencies
+* execution semantics
+* semantic context propagation
+* engineering intelligence
 
-Avoid excessive gradients, glassmorphism, playful consumer aesthetics, and cluttered chrome.
+The platform is intended to evolve into:
 
-==================================================
-APPLICATION ARCHITECTURE
-==================================================
+* an AI-native CASE platform
+* a software engineering knowledge graph
+* a graph-native planning environment
+* an AI-assisted engineering operating system
 
-Use a modular monolith architecture with bounded domains, clean boundaries, and internal event-driven communication.
+---
 
-Organize code by domain and feature. Use server components where appropriate, client components only for interaction, and keep domain logic isolated from UI and transport concerns.
+# Product Constraints
 
-Architectural decisions should optimize for long-term extensibility of the graph engine, node system, and engineering knowledge model.
+EngraphSW is NOT:
 
-==================================================
-ARCHITECTURE CONSTRAINT
-==================================================
+* a Kanban board
+* a Trello clone
+* a generic workflow automation tool
+* a BPMN platform
+* a generic project management system
+* a low-code automation environment
 
-Do not implement microservices at this stage.
+The system must preserve its identity as an engineering-first SDLC platform.
 
-Favor simplicity, maintainability, and developer velocity over premature distribution.
+The core entities of the system are engineering artifacts, not tasks.
 
-Implementation should follow the roadmap documents sequentially.
+---
 
-==================================================
-BOUNDED CONTEXTS
-==================================================
+# Domain Philosophy
 
-Likely bounded contexts include workspace, graph, nodes, requirements, estimation, traceability, AI, collaboration, and execution.
+Engineering artifacts are structured semantic entities.
 
-Avoid business logic inside UI components, giant shared utility folders, and tightly coupled node implementations.
+Artifacts should not behave as isolated documents or generic records.
 
-==================================================
-NODE SYSTEM PHILOSOPHY
-==================================================
+The system should model:
 
-The node system is the core abstraction of the application.
+* semantic relationships
+* traceability
+* dependency awareness
+* execution propagation
+* engineering context
+* graph intelligence
 
-Nodes are structured domain artifacts with metadata, schema, inputs, outputs, renderer, validation, execution behavior, and AI capabilities. Nodes must be dynamically registerable and built around a plugin-oriented architecture.
+The graph is the system of record for engineering knowledge and artifact relationships.
 
-Treat nodes as domain objects first and visuals second. Keep node contracts strongly typed, behavior explicit, and extension points composable.
+---
 
-Node relationships and execution semantics are more important than isolated node UI behavior.
+# Architectural Philosophy
 
+The platform should prioritize:
 
-==================================================
-PROJECT EXECUTION RULES
-==================================================
+* graph-native architecture
+* modularity
+* bounded contexts
+* strong contracts
+* extensibility
+* composability
+* semantic clarity
+* long-term maintainability
 
-Before major implementation work, explain the architectural decision, tradeoffs, scalability concerns, coupling risks, and extensibility considerations.
+The node system is the core abstraction of the platform.
 
-Generate production-grade code. Avoid placeholder implementations and simplistic CRUD-only solutions.
+Nodes are domain entities first and visual elements second.
 
-The graph and node architecture are the most important parts of the platform. When uncertain, choose the design that best supports long-term extensibility of the node graph system.
+Node relationships, execution semantics, and traceability intelligence are more important than isolated node UI behavior.
 
-==================================================
-CODE QUALITY REQUIREMENTS
-==================================================
+---
 
-Requirements:
-- strong typing everywhere
-- reusable components
-- modular design
-- scalable architecture
-- clear naming conventions
-- avoid duplication
-- avoid tightly coupled logic
-- avoid oversized components
+# Engineering Doctrine
 
-==================================================
-FINAL OBJECTIVE
-==================================================
+Favor:
 
-Build a professional-grade AI-native SDLC workspace platform where software engineering artifacts exist as intelligent, interconnected nodes inside a visual graph workspace.
+* strong typing
+* explicit contracts
+* modular systems
+* composable abstractions
+* clear boundaries
+* scalable architecture
+* maintainable systems
+* long-term extensibility
 
-The system should feel like a visual software engineering operating system, a knowledge graph for project planning, an intelligent CASE platform, and an AI-assisted SDLC orchestration environment.
+Avoid:
+
+* tightly coupled systems
+* oversized modules
+* generic dashboard abstractions
+* implementation shortcuts that weaken graph semantics
+* architecture driven purely by short-term convenience
+
+---
+
+# System Architecture Principles
+
+The platform should evolve as a modular monolith with bounded domain ownership and clean internal boundaries.
+
+Architectural decisions should optimize for:
+
+* graph scalability
+* node extensibility
+* execution integrity
+* traceability intelligence
+* semantic consistency
+* future system evolution
+
+Premature distributed systems complexity should be avoided.
+
+---
+
+# Visual Philosophy
+
+The interface should feel like a professional engineering operating system.
+
+Visual direction:
+
+* dark-first
+* restrained
+* dense
+* engineering-focused
+* graph-centric
+* minimal visual noise
+
+The UI should emphasize:
+
+* graph readability
+* semantic clarity
+* execution visibility
+* engineering workflow efficiency
+
+Avoid:
+
+* excessive ornamentation
+* playful consumer aesthetics
+* generic SaaS dashboard patterns
+* visually noisy interfaces
+
+---
+
+# AI-Native Engineering Philosophy
+
+The repository is designed as an AI-native engineering environment.
+
+AI systems operating within the repository should:
+
+* preserve architectural integrity
+* maintain semantic consistency
+* respect governance boundaries
+* operate within bounded responsibilities
+* prioritize long-term repository coherence
+
+Repository cognition is intentionally layered to separate:
+
+* governance
+* orchestration
+* architecture
+* implementation
+* specialized expertise
+
+---
+
+# Constitutional Stability
+
+This document defines long-lived repository truths.
+
+It should evolve slowly and deliberately.
+
+Frequent implementation behavior, execution workflows, roadmap sequencing, and AI operational behavior should remain outside the constitutional layer.
+
+---
+
+# Final Objective
+
+Build a professional-grade AI-native SDLC workspace where software engineering artifacts exist as intelligent, interconnected graph entities inside a visual engineering environment.
+
+The system should feel like:
+
+* a software engineering operating system
+* a graph-native CASE platform
+* an engineering knowledge graph
+* an AI-assisted SDLC orchestration environment
