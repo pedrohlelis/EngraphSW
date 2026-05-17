@@ -18,7 +18,7 @@ Define how nodes execute, recalculate, and transition through lifecycle states. 
 
 ## NodeDefinition Interface
 
-Every node type registered in the system implements the `NodeDefinition` interface. This is the typed contract a node plugin must fulfill. At persistence time, a node instance's `type` and `content` fields map directly to the [`node_nodes`](initial-schema.md) table columns.
+Every node type registered in the system implements the `NodeDefinition` interface. This is the typed contract a node plugin must fulfill. At persistence time, a node instance's `type` and `content` fields map directly to the [node_nodes Table](initial-schema.md) columns.
 
 ```typescript
 interface NodeDefinition<TContent = Record<string, unknown>, TOutput = Record<string, unknown>> {

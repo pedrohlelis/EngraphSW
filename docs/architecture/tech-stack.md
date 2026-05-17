@@ -48,7 +48,7 @@ This document defines the pinned technology decisions for EngraphSW. It is the c
 |---|---|---|---|
 | React Flow | `@xyflow/react` | 12.x | Open-source tier. Pro features not required for Phase 3. |
 
-See [ADR-006](../adr/006-canvas-technology.md) for the decision record.
+See [ADR-006](../adr/006-canvas-technology.md) for the decision record. The [Canvas Engine](canvas-engine.md) architecture document defines how React Flow is integrated into the component and state layer.
 
 ---
 
@@ -125,6 +125,8 @@ Liveblocks is listed here for version pinning. It is not implemented until Phase
 - Queue definitions live in `modules/execution/queues/`
 - Worker processes are separate files under `modules/execution/workers/`
 - Job types are strongly typed using TypeScript generics on `Queue<JobData, JobResult>`
+
+Module directory layout follows the conventions in [Module Conventions](module-conventions.md).
 
 ---
 

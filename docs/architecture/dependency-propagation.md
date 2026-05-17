@@ -10,6 +10,8 @@ It does not define edge-type-specific propagation rules. Those are defined in th
 
 See [docs/domain/typed-edge-semantics.md](../domain/typed-edge-semantics.md).
 
+The artifact types that form graph nodes — Requirements, User Stories, Estimations, Risks, and WBS Packages — are defined in [Engineering Artifact Taxonomy](../domain/engineering-artifact-taxonomy.md).
+
 ---
 
 ## Core Concept
@@ -63,6 +65,8 @@ A stale node is resolved when:
 - it is explicitly re-executed by the user or the system
 - its outputs are recomputed and validated as current
 - the execution completes successfully and its state returns to `success`
+
+Execution state transitions referenced here — `idle`, `running`, `success`, `failed`, `stale` — are defined in [Node Execution Model](node-execution-model.md).
 
 A stale node that fails re-execution transitions to `failed`, not back to stale.
 

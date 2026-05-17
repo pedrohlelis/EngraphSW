@@ -51,7 +51,7 @@ Define how stakeholders are represented as context-bearing actors that influence
 
 ## Field Schema
 
-The following fields are stored as JSONB in the [`node_nodes`](../architecture/initial-schema.md) table's `content` column, for nodes of type `stakeholder`. See [Initial Schema — node_nodes](../architecture/initial-schema.md) for the full table definition.
+The following fields are stored as JSONB in the [node_nodes Table](../architecture/initial-schema.md) table's `content` column, for nodes of type `stakeholder`. See [Initial Schema — node_nodes](../architecture/initial-schema.md) for the full table definition.
 
 | Field | Type | Required | Constraints | Notes |
 |---|---|---|---|---|

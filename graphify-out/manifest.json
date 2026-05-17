@@ -15,9 +15,9 @@
     "semantic_hash": "4f03cc52a1451d846320d73354bb287f"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\.claude\\agents\\orchestrator.md": {
-    "mtime": 1778869181.4810686,
-    "ast_hash": "5c87bfa98742688dee0dc086452427ec",
-    "semantic_hash": "5c87bfa98742688dee0dc086452427ec"
+    "mtime": 1778889389.0453322,
+    "ast_hash": "fd79a266fea7c6e2f1abc69b579d39df",
+    "semantic_hash": "fd79a266fea7c6e2f1abc69b579d39df"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\.claude\\instructions\\information-boundaries.md": {
     "mtime": 1778809001.674126,
@@ -105,9 +105,9 @@
     "semantic_hash": "f829d9bc99631f996024ea6e61fdff01"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\adr\\007-state-management.md": {
-    "mtime": 1778870696.322152,
-    "ast_hash": "75c0b2992d882d509cd7d9b0bf69a3a1",
-    "semantic_hash": "75c0b2992d882d509cd7d9b0bf69a3a1"
+    "mtime": 1778889316.241746,
+    "ast_hash": "52bbe11fc7bea44899e82d7fcbfacc8b",
+    "semantic_hash": "52bbe11fc7bea44899e82d7fcbfacc8b"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\architecture\\ai-architecture.md": {
     "mtime": 1778869888.4133327,
@@ -115,14 +115,14 @@
     "semantic_hash": "8cd91045e36337a3d9999e7e37eb5ba1"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\architecture\\canvas-engine.md": {
-    "mtime": 1778871335.9246247,
-    "ast_hash": "d57ba12eaacabe7b7571bc469bed5b7e",
-    "semantic_hash": "d57ba12eaacabe7b7571bc469bed5b7e"
+    "mtime": 1778889332.8379586,
+    "ast_hash": "d162be2486c1b8b8d3bd24be97f86331",
+    "semantic_hash": "d162be2486c1b8b8d3bd24be97f86331"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\architecture\\dependency-propagation.md": {
-    "mtime": 1778869824.0680478,
-    "ast_hash": "f8e49c184e7bfcb09520c5a5b8400b72",
-    "semantic_hash": "f8e49c184e7bfcb09520c5a5b8400b72"
+    "mtime": 1778887918.9866438,
+    "ast_hash": "56002867e9db6eefee027d63e9c6c9e0",
+    "semantic_hash": "56002867e9db6eefee027d63e9c6c9e0"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\architecture\\export-system.md": {
     "mtime": 1778869120.8539143,
@@ -145,9 +145,9 @@
     "semantic_hash": "ecb2dae75a51257591bacbe1275b9ec8"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\architecture\\node-execution-model.md": {
-    "mtime": 1778871288.406018,
-    "ast_hash": "b81ffce79c0d8e7844596e41bf5a5005",
-    "semantic_hash": "b81ffce79c0d8e7844596e41bf5a5005"
+    "mtime": 1778889425.451121,
+    "ast_hash": "a2d7d13bb802b8de0f37d14121ead115",
+    "semantic_hash": "a2d7d13bb802b8de0f37d14121ead115"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\architecture\\persistence-strategy.md": {
     "mtime": 1778814600.5476427,
@@ -155,9 +155,9 @@
     "semantic_hash": "945b2b1b2b80cf20b6fbcf998d9ba88e"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\architecture\\tech-stack.md": {
-    "mtime": 1778870835.7859612,
-    "ast_hash": "1982f06d8b32447db9ae7387b5e464c4",
-    "semantic_hash": "1982f06d8b32447db9ae7387b5e464c4"
+    "mtime": 1778889377.8265674,
+    "ast_hash": "53c378b50101e48a255eadaf11922ef5",
+    "semantic_hash": "53c378b50101e48a255eadaf11922ef5"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\architecture\\traceability-model.md": {
     "mtime": 1778871378.9929373,
@@ -165,9 +165,9 @@
     "semantic_hash": "1b099e6d97706727451b982a112ccfb5"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\architecture\\versioning-strategy.md": {
-    "mtime": 1778869106.5530913,
-    "ast_hash": "22e42b2248e768305bd05c3a85264bdd",
-    "semantic_hash": "22e42b2248e768305bd05c3a85264bdd"
+    "mtime": 1778889401.2121983,
+    "ast_hash": "457f35aee686fe356dceb93429223db0",
+    "semantic_hash": "457f35aee686fe356dceb93429223db0"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\branding\\brand-guidelines.md": {
     "mtime": 1778869824.1259232,
@@ -190,39 +190,39 @@
     "semantic_hash": "658d6ba053083e571c25728208323c25"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\domain\\estimation-domain.md": {
-    "mtime": 1778871476.551022,
-    "ast_hash": "a2980821d04568de19c9aa70a03ae9ab",
-    "semantic_hash": "a2980821d04568de19c9aa70a03ae9ab"
+    "mtime": 1778889364.0424333,
+    "ast_hash": "510bde74b3f48933bee363e57690a6c9",
+    "semantic_hash": "510bde74b3f48933bee363e57690a6c9"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\domain\\functional-requirements-domain.md": {
-    "mtime": 1778871440.7133024,
-    "ast_hash": "c106b7a7c72f38972d29e73d8e3dce2d",
-    "semantic_hash": "c106b7a7c72f38972d29e73d8e3dce2d"
+    "mtime": 1778889337.823675,
+    "ast_hash": "18aecf70de61657ad09ee81903445d37",
+    "semantic_hash": "18aecf70de61657ad09ee81903445d37"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\domain\\personas-domain.md": {
-    "mtime": 1778871458.8186214,
-    "ast_hash": "f7038d7ec9a6d06222a0007aa29156af",
-    "semantic_hash": "f7038d7ec9a6d06222a0007aa29156af"
+    "mtime": 1778889365.0698435,
+    "ast_hash": "7a6653f1b68a3c17257345bc0504577d",
+    "semantic_hash": "7a6653f1b68a3c17257345bc0504577d"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\domain\\risk-analysis-domain.md": {
-    "mtime": 1778871487.1429017,
-    "ast_hash": "068b4a260471ac03fd43338bbc4fc98c",
-    "semantic_hash": "068b4a260471ac03fd43338bbc4fc98c"
+    "mtime": 1778889358.6930187,
+    "ast_hash": "c3a3c387e6da3ff52ac52273572c1ad1",
+    "semantic_hash": "c3a3c387e6da3ff52ac52273572c1ad1"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\domain\\stakeholder-domain.md": {
-    "mtime": 1778871467.0259416,
-    "ast_hash": "9ef18169beaf4fccbd55bbb25bbd349c",
-    "semantic_hash": "9ef18169beaf4fccbd55bbb25bbd349c"
+    "mtime": 1778889369.348145,
+    "ast_hash": "48f86441b0c1c665d0d180263784f29b",
+    "semantic_hash": "48f86441b0c1c665d0d180263784f29b"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\domain\\typed-edge-semantics.md": {
-    "mtime": 1778869824.2274165,
-    "ast_hash": "b3172e93fb19418774c1b9368d8295ff",
-    "semantic_hash": "b3172e93fb19418774c1b9368d8295ff"
+    "mtime": 1778887653.7662878,
+    "ast_hash": "f4b054b9f6615b9d46336e491dcb911d",
+    "semantic_hash": "f4b054b9f6615b9d46336e491dcb911d"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\domain\\user-stories-domain.md": {
-    "mtime": 1778871450.5811093,
-    "ast_hash": "acfc8f6136341fdbfaaef270b02cb613",
-    "semantic_hash": "acfc8f6136341fdbfaaef270b02cb613"
+    "mtime": 1778889357.65045,
+    "ast_hash": "3bc443b911e033837ca70518722d0da0",
+    "semantic_hash": "3bc443b911e033837ca70518722d0da0"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\meta\\ai-role-separation.md": {
     "mtime": 1778869888.8205962,
@@ -230,9 +230,9 @@
     "semantic_hash": "d4a864bbeb112383e8f699d14c95d749"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\meta\\graph-maintenance.md": {
-    "mtime": 1778870647.261093,
-    "ast_hash": "397447913be0d28f221ae655deb81614",
-    "semantic_hash": "397447913be0d28f221ae655deb81614"
+    "mtime": 1778887663.462311,
+    "ast_hash": "c5d8a25272f879b42818f612e6bf27c3",
+    "semantic_hash": "c5d8a25272f879b42818f612e6bf27c3"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\meta\\orchestration-model.md": {
     "mtime": 1778869889.0216093,
@@ -240,9 +240,9 @@
     "semantic_hash": "6a79480de4395ae0e9974eea4a3e9caa"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\meta\\repository-cognition.md": {
-    "mtime": 1778870649.2470498,
-    "ast_hash": "1e67490302d276b3aba75d8d2fbc3efc",
-    "semantic_hash": "1e67490302d276b3aba75d8d2fbc3efc"
+    "mtime": 1778888688.5736308,
+    "ast_hash": "b3492d59a5336d10e5251eccfe1fa4b8",
+    "semantic_hash": "b3492d59a5336d10e5251eccfe1fa4b8"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\meta\\repository-governance.md": {
     "mtime": 1778869889.2236578,
@@ -260,19 +260,19 @@
     "semantic_hash": "ec26961749f03a6205609725c55ef895"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\roadmap\\PHASE_1A_REPOSITORY_FOUNDATION.md": {
-    "mtime": 1778870651.1001415,
-    "ast_hash": "3eadeb2efd11d41fe2eb1fc76d6ee531",
-    "semantic_hash": "3eadeb2efd11d41fe2eb1fc76d6ee531"
+    "mtime": 1778889395.495301,
+    "ast_hash": "d31f4ff6684572677f37c57e1734dd3d",
+    "semantic_hash": "d31f4ff6684572677f37c57e1734dd3d"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\roadmap\\PHASE_1B_SPECIFICATION.md": {
-    "mtime": 1778871548.5826645,
-    "ast_hash": "420059acdcd4c8915b1deda239a79e26",
-    "semantic_hash": "420059acdcd4c8915b1deda239a79e26"
+    "mtime": 1778890317.6675453,
+    "ast_hash": "b4c78d06f18d0527671850a9825ca6d0",
+    "semantic_hash": "b4c78d06f18d0527671850a9825ca6d0"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\roadmap\\PHASE_2_SYSTEM_ARCHITECTURE.md": {
-    "mtime": 1778869824.3624027,
-    "ast_hash": "47f776511a1e62ec41e8777c3b93ade8",
-    "semantic_hash": "47f776511a1e62ec41e8777c3b93ade8"
+    "mtime": 1778889916.083177,
+    "ast_hash": "e1fba4184b99288a0d77ca374bf0842e",
+    "semantic_hash": "e1fba4184b99288a0d77ca374bf0842e"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\roadmap\\PHASE_3_CANVAS_ENGINE.md": {
     "mtime": 1778869245.249392,
@@ -305,8 +305,8 @@
     "semantic_hash": "288e16cea6ad6c27ac2e54b41845def2"
   },
   "C:\\Users\\USER\\dev\\EngraphSW\\docs\\roadmap\\PHASE_9_VERSIONING.md": {
-    "mtime": 1778869245.56574,
-    "ast_hash": "91c5c165d6d1125fd5a8fb300b792c08",
-    "semantic_hash": "91c5c165d6d1125fd5a8fb300b792c08"
+    "mtime": 1778889410.2824216,
+    "ast_hash": "898588a79a1adc6456037fda7888015f",
+    "semantic_hash": "898588a79a1adc6456037fda7888015f"
   }
 }

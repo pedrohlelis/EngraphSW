@@ -5,6 +5,7 @@
 * [Repository Governance](../meta/repository-governance.md) — the governance system established by this phase
 * [Orchestration Model](../meta/orchestration-model.md) — the AI operational model established by this phase
 * [AI Role Separation](../meta/ai-role-separation.md) — the role boundary system established by this phase
+* [Graph Maintenance Guide](../meta/graph-maintenance.md) — the graph tooling discipline established by this phase
 * [Phase 1B — Specification Hardening](PHASE_1B_SPECIFICATION.md) — the next phase
 
 ---
@@ -236,7 +237,7 @@ Establish:
 
 Required deliverables:
 
-* design philosophy document
+* design philosophy document — see [UI Language Guidelines](../branding/ui-language.md)
 * visual identity guidance
 * node visual principles
 * graph interaction principles

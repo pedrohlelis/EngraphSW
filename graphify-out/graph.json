@@ -1,89 +1,7 @@
 {
   "directed": false,
   "multigraph": false,
-  "graph": {
-    "hyperedges": [
-      {
-        "id": "ai_agent_governance_system",
-        "label": "AI Agent Governance System: Orchestrator + Implementer + Information Boundaries",
-        "nodes": [
-          "agent_orchestrator",
-          "agent_implementer",
-          "instruction_information_boundaries"
-        ],
-        "relation": "implement",
-        "confidence": "EXTRACTED",
-        "confidence_score": 0.95,
-        "source_file": ".claude/instructions/information-boundaries.md"
-      },
-      {
-        "id": "core_graph_architecture_triad",
-        "label": "Core Graph Architecture: Graph-as-Record + Plugin Nodes + Event-Driven Communication",
-        "nodes": [
-          "adr_003_graph_system_of_record",
-          "adr_002_plugin_node",
-          "adr_004_event_driven"
-        ],
-        "relation": "form",
-        "confidence": "EXTRACTED",
-        "confidence_score": 0.95,
-        "source_file": "docs/adr/003-graph-system-of-record.md"
-      },
-      {
-        "id": "graph_node_traceability_core",
-        "label": "Graph-Node-Traceability Core Platform Concepts",
-        "nodes": [
-          "concept_graph_as_system_of_record",
-          "concept_node_system",
-          "concept_traceability",
-          "concept_dependency_propagation"
-        ],
-        "relation": "participate_in",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": "docs/adr/003-graph-system-of-record.md"
-      },
-      {
-        "id": "propagation_edge_taxonomy_triad",
-        "label": "Propagation Engine instantiated by Typed Edge Semantics over Artifact Taxonomy",
-        "nodes": [
-          "dep_prop_propagation_engine",
-          "typed_edge_semantics",
-          "artifact_taxonomy"
-        ],
-        "relation": "implement",
-        "confidence": "EXTRACTED",
-        "confidence_score": 0.95,
-        "source_file": "docs/domain/typed-edge-semantics.md"
-      },
-      {
-        "id": "sdlc_nodes_artifact_categories_triad",
-        "label": "Phase 5 SDLC Nodes implement Artifact Taxonomy Categories with Typed Edge Relationships",
-        "nodes": [
-          "phase5_sdlc_nodes",
-          "artifact_taxonomy",
-          "typed_edge_semantics"
-        ],
-        "relation": "implement",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": "docs/roadmap/PHASE_5_SDLC_NODES.md"
-      },
-      {
-        "id": "phase1b_specification_hardening_triad",
-        "label": "Phase 1B hardens Architecture Docs, Domain Docs, and ADRs for Phase 2 readiness",
-        "nodes": [
-          "phase1b_specification",
-          "phase2_system_architecture",
-          "artifact_taxonomy"
-        ],
-        "relation": "participate_in",
-        "confidence": "EXTRACTED",
-        "confidence_score": 0.9,
-        "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md"
-      }
-    ]
-  },
+  "graph": {},
   "nodes": [
     {
       "label": "CLAUDE.md Constitutional Document",
@@ -94,9 +12,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_doc",
       "community": 15,
-      "norm_label": "claude.md constitutional document"
+      "norm_label": "claude.md constitutional document",
+      "id": "claude_doc"
     },
     {
       "label": "EngraphSW Repository Constitution",
@@ -107,9 +25,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_md_constitution",
-      "community": 0,
-      "norm_label": "engraphsw repository constitution"
+      "community": 5,
+      "norm_label": "engraphsw repository constitution",
+      "id": "claude_md_constitution"
     },
     {
       "label": "Graph-Native SDLC Engineering Platform",
@@ -120,9 +38,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_graph_native_platform",
-      "community": 0,
-      "norm_label": "graph-native sdlc engineering platform"
+      "community": 5,
+      "norm_label": "graph-native sdlc engineering platform",
+      "id": "concept_graph_native_platform"
     },
     {
       "label": "AI-Native Engineering Philosophy",
@@ -133,9 +51,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_ai_native_engineering",
-      "community": 0,
-      "norm_label": "ai-native engineering philosophy"
+      "community": 5,
+      "norm_label": "ai-native engineering philosophy",
+      "id": "concept_ai_native_engineering"
     },
     {
       "label": "Layered Repository Cognition",
@@ -146,9 +64,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_layered_cognition",
-      "community": 0,
-      "norm_label": "layered repository cognition"
+      "community": 5,
+      "norm_label": "layered repository cognition",
+      "id": "concept_layered_cognition"
     },
     {
       "label": "Visual Engineering Operating System",
@@ -159,9 +77,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_visual_engineering_os",
-      "community": 0,
-      "norm_label": "visual engineering operating system"
+      "community": 5,
+      "norm_label": "visual engineering operating system",
+      "id": "concept_visual_engineering_os"
     },
     {
       "label": "Engineering Artifacts as First-Class Entities",
@@ -172,9 +90,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_engineering_artifacts",
-      "community": 0,
-      "norm_label": "engineering artifacts as first-class entities"
+      "community": 5,
+      "norm_label": "engineering artifacts as first-class entities",
+      "id": "concept_engineering_artifacts"
     },
     {
       "label": "EngraphSW Implementer Agent",
@@ -185,9 +103,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agent_implementer",
-      "community": 0,
-      "norm_label": "engraphsw implementer agent"
+      "community": 5,
+      "norm_label": "engraphsw implementer agent",
+      "id": "agent_implementer"
     },
     {
       "label": "Phase-Gated Execution Control",
@@ -198,9 +116,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_phase_gated_execution",
-      "community": 0,
-      "norm_label": "phase-gated execution control"
+      "community": 5,
+      "norm_label": "phase-gated execution control",
+      "id": "concept_phase_gated_execution"
     },
     {
       "label": "Information Boundaries Instruction",
@@ -211,9 +129,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "instruction_information_boundaries",
-      "community": 0,
-      "norm_label": "information boundaries instruction"
+      "community": 5,
+      "norm_label": "information boundaries instruction",
+      "id": "instruction_information_boundaries"
     },
     {
       "label": "AI Workflows Skill",
@@ -224,9 +142,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "skill_ai_workflows",
-      "community": 0,
-      "norm_label": "ai workflows skill"
+      "community": 5,
+      "norm_label": "ai workflows skill",
+      "id": "skill_ai_workflows"
     },
     {
       "label": "Architecture Review Skill",
@@ -237,9 +155,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "skill_architecture_review",
-      "community": 0,
-      "norm_label": "architecture review skill"
+      "community": 5,
+      "norm_label": "architecture review skill",
+      "id": "skill_architecture_review"
     },
     {
       "label": "Domain Driven Design Skill",
@@ -250,9 +168,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "skill_domain_driven_design",
-      "community": 0,
-      "norm_label": "domain driven design skill"
+      "community": 5,
+      "norm_label": "domain driven design skill",
+      "id": "skill_domain_driven_design"
     },
     {
       "label": "Bounded Contexts",
@@ -263,9 +181,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_bounded_contexts",
-      "community": 0,
-      "norm_label": "bounded contexts"
+      "community": 5,
+      "norm_label": "bounded contexts",
+      "id": "concept_bounded_contexts"
     },
     {
       "label": "Event Driven Patterns Skill",
@@ -276,9 +194,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "skill_event_driven_patterns",
-      "community": 0,
-      "norm_label": "event driven patterns skill"
+      "community": 4,
+      "norm_label": "event driven patterns skill",
+      "id": "skill_event_driven_patterns"
     },
     {
       "label": "Event-Driven Internal Communication",
@@ -289,9 +207,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_event_driven_communication",
-      "community": 0,
-      "norm_label": "event-driven internal communication"
+      "community": 5,
+      "norm_label": "event-driven internal communication",
+      "id": "concept_event_driven_communication"
     },
     {
       "label": "Graph Engineering Skill",
@@ -302,9 +220,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "skill_graph_engineering",
-      "community": 0,
-      "norm_label": "graph engineering skill"
+      "community": 4,
+      "norm_label": "graph engineering skill",
+      "id": "skill_graph_engineering"
     },
     {
       "label": "Dependency Propagation",
@@ -315,9 +233,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_dependency_propagation",
-      "community": 0,
-      "norm_label": "dependency propagation"
+      "community": 4,
+      "norm_label": "dependency propagation",
+      "id": "concept_dependency_propagation"
     },
     {
       "label": "Node Design Skill",
@@ -328,9 +246,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "skill_node_design",
-      "community": 0,
-      "norm_label": "node design skill"
+      "community": 5,
+      "norm_label": "node design skill",
+      "id": "skill_node_design"
     },
     {
       "label": "Node System Core Abstraction",
@@ -341,9 +259,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_node_system",
-      "community": 0,
-      "norm_label": "node system core abstraction"
+      "community": 5,
+      "norm_label": "node system core abstraction",
+      "id": "concept_node_system"
     },
     {
       "label": "Prisma Postgres Patterns Skill",
@@ -354,9 +272,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "skill_prisma_postgres",
       "community": 16,
-      "norm_label": "prisma postgres patterns skill"
+      "norm_label": "prisma postgres patterns skill",
+      "id": "skill_prisma_postgres"
     },
     {
       "label": "React Flow Patterns Skill",
@@ -367,9 +285,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "skill_react_flow",
-      "community": 0,
-      "norm_label": "react flow patterns skill"
+      "community": 5,
+      "norm_label": "react flow patterns skill",
+      "id": "skill_react_flow"
     },
     {
       "label": "Technical Debt Review Skill",
@@ -380,9 +298,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "skill_technical_debt",
-      "community": 0,
-      "norm_label": "technical debt review skill"
+      "community": 5,
+      "norm_label": "technical debt review skill",
+      "id": "skill_technical_debt"
     },
     {
       "label": "UI System Skill",
@@ -393,9 +311,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "skill_ui_system",
-      "community": 0,
-      "norm_label": "ui system skill"
+      "community": 5,
+      "norm_label": "ui system skill",
+      "id": "skill_ui_system"
     },
     {
       "label": "ADR-001: Modular Monolith Architecture",
@@ -406,9 +324,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "001_modular_monolith_adr",
       "community": 3,
-      "norm_label": "adr-001: modular monolith architecture"
+      "norm_label": "adr-001: modular monolith architecture",
+      "id": "001_modular_monolith_adr"
     },
     {
       "label": "ADR-002: Plugin-Oriented Node Architecture",
@@ -419,9 +337,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "002_plugin_node_architecture_adr",
       "community": 3,
-      "norm_label": "adr-002: plugin-oriented node architecture"
+      "norm_label": "adr-002: plugin-oriented node architecture",
+      "id": "002_plugin_node_architecture_adr"
     },
     {
       "label": "ADR-003 Graph as System of Record",
@@ -432,9 +350,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "adr_003_graph_system_of_record",
-      "community": 0,
-      "norm_label": "adr-003 graph as system of record"
+      "community": 4,
+      "norm_label": "adr-003 graph as system of record",
+      "id": "adr_003_graph_system_of_record"
     },
     {
       "label": "Graph as System of Record",
@@ -445,9 +363,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_graph_as_system_of_record",
-      "community": 0,
-      "norm_label": "graph as system of record"
+      "community": 4,
+      "norm_label": "graph as system of record",
+      "id": "concept_graph_as_system_of_record"
     },
     {
       "label": "Traceability Intelligence",
@@ -458,9 +376,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_traceability",
-      "community": 0,
-      "norm_label": "traceability intelligence"
+      "community": 4,
+      "norm_label": "traceability intelligence",
+      "id": "concept_traceability"
     },
     {
       "label": "ADR-004 Event-Driven Communication",
@@ -471,9 +389,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "adr_004_doc",
       "community": 17,
-      "norm_label": "adr-004 event-driven communication"
+      "norm_label": "adr-004 event-driven communication",
+      "id": "adr_004_doc"
     },
     {
       "label": "ADR-005 AI Provider Abstraction",
@@ -484,9 +402,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "adr_005_doc",
       "community": 13,
-      "norm_label": "adr-005 ai provider abstraction"
+      "norm_label": "adr-005 ai provider abstraction",
+      "id": "adr_005_doc"
     },
     {
       "label": "ADR-006: Canvas and Visualization Technology",
@@ -497,9 +415,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "006_canvas_technology_adr",
       "community": 3,
-      "norm_label": "adr-006: canvas and visualization technology"
+      "norm_label": "adr-006: canvas and visualization technology",
+      "id": "006_canvas_technology_adr"
     },
     {
       "label": "React Flow (XYFlow)",
@@ -510,9 +428,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "006_canvas_technology_react_flow",
-      "community": 3,
-      "norm_label": "react flow (xyflow)"
+      "community": 8,
+      "norm_label": "react flow (xyflow)",
+      "id": "006_canvas_technology_react_flow"
     },
     {
       "label": "D3.js",
@@ -523,9 +441,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "006_canvas_technology_d3js",
-      "community": 3,
-      "norm_label": "d3.js"
+      "community": 8,
+      "norm_label": "d3.js",
+      "id": "006_canvas_technology_d3js"
     },
     {
       "label": "Cytoscape.js",
@@ -536,9 +454,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "006_canvas_technology_cytoscapejs",
-      "community": 3,
-      "norm_label": "cytoscape.js"
+      "community": 8,
+      "norm_label": "cytoscape.js",
+      "id": "006_canvas_technology_cytoscapejs"
     },
     {
       "label": "Canvas Module (modules/canvas/)",
@@ -549,9 +467,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "006_canvas_technology_canvas_module",
-      "community": 3,
-      "norm_label": "canvas module (modules/canvas/)"
+      "community": 8,
+      "norm_label": "canvas module (modules/canvas/)",
+      "id": "006_canvas_technology_canvas_module"
     },
     {
       "label": "ADR-007: Client State Management",
@@ -562,22 +480,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "007_state_management_adr",
       "community": 3,
-      "norm_label": "adr-007: client state management"
-    },
-    {
-      "label": "Zustand",
-      "file_type": "concept",
-      "source_file": "docs/adr/007-state-management.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "007_state_management_zustand",
-      "community": 3,
-      "norm_label": "zustand"
+      "norm_label": "adr-007: client state management",
+      "id": "007_state_management_adr"
     },
     {
       "label": "Redux Toolkit",
@@ -588,9 +493,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "007_state_management_redux_toolkit",
-      "community": 3,
-      "norm_label": "redux toolkit"
+      "community": 8,
+      "norm_label": "redux toolkit",
+      "id": "007_state_management_redux_toolkit"
     },
     {
       "label": "Jotai",
@@ -601,9 +506,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "007_state_management_jotai",
-      "community": 3,
-      "norm_label": "jotai"
+      "community": 8,
+      "norm_label": "jotai",
+      "id": "007_state_management_jotai"
     },
     {
       "label": "React Context",
@@ -614,9 +519,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "007_state_management_react_context",
-      "community": 3,
-      "norm_label": "react context"
+      "community": 8,
+      "norm_label": "react context",
+      "id": "007_state_management_react_context"
     },
     {
       "label": "Graph State Slice",
@@ -627,9 +532,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "007_state_management_graph_slice",
-      "community": 3,
-      "norm_label": "graph state slice"
+      "community": 8,
+      "norm_label": "graph state slice",
+      "id": "007_state_management_graph_slice"
     },
     {
       "label": "Selection State Slice",
@@ -640,9 +545,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "007_state_management_selection_slice",
-      "community": 3,
-      "norm_label": "selection state slice"
+      "community": 8,
+      "norm_label": "selection state slice",
+      "id": "007_state_management_selection_slice"
     },
     {
       "label": "Execution State Slice",
@@ -653,9 +558,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "007_state_management_execution_slice",
-      "community": 3,
-      "norm_label": "execution state slice"
+      "community": 8,
+      "norm_label": "execution state slice",
+      "id": "007_state_management_execution_slice"
     },
     {
       "label": "Viewport State Slice",
@@ -666,9 +571,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "007_state_management_viewport_slice",
-      "community": 3,
-      "norm_label": "viewport state slice"
+      "community": 8,
+      "norm_label": "viewport state slice",
+      "id": "007_state_management_viewport_slice"
     },
     {
       "label": "Workspace State Slice",
@@ -679,9 +584,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "007_state_management_workspace_slice",
-      "community": 3,
-      "norm_label": "workspace state slice"
+      "community": 8,
+      "norm_label": "workspace state slice",
+      "id": "007_state_management_workspace_slice"
     },
     {
       "label": "AI Architecture",
@@ -692,9 +597,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_architecture_doc",
       "community": 13,
-      "norm_label": "ai architecture"
+      "norm_label": "ai architecture",
+      "id": "ai_architecture_doc"
     },
     {
       "label": "AI Infrastructure Layer (ai/ module)",
@@ -705,9 +610,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_architecture_infrastructure_layer",
-      "community": 10,
-      "norm_label": "ai infrastructure layer (ai/ module)"
+      "community": 11,
+      "norm_label": "ai infrastructure layer (ai/ module)",
+      "id": "ai_architecture_infrastructure_layer"
     },
     {
       "label": "Domain AI Logic Layer",
@@ -718,9 +623,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_architecture_domain_layer",
-      "community": 10,
-      "norm_label": "domain ai logic layer"
+      "community": 11,
+      "norm_label": "domain ai logic layer",
+      "id": "ai_architecture_domain_layer"
     },
     {
       "label": "AI Generation Operation",
@@ -731,9 +636,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_architecture_generation",
       "community": 12,
-      "norm_label": "ai generation operation"
+      "norm_label": "ai generation operation",
+      "id": "ai_architecture_generation"
     },
     {
       "label": "AI Analysis Operation",
@@ -744,9 +649,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_architecture_analysis",
       "community": 12,
-      "norm_label": "ai analysis operation"
+      "norm_label": "ai analysis operation",
+      "id": "ai_architecture_analysis"
     },
     {
       "label": "AI Traceability Assistance",
@@ -757,9 +662,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_architecture_traceability_assistance",
       "community": 18,
-      "norm_label": "ai traceability assistance"
+      "norm_label": "ai traceability assistance",
+      "id": "ai_architecture_traceability_assistance"
     },
     {
       "label": "AI Estimation Assistance",
@@ -770,9 +675,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_architecture_estimation_assistance",
       "community": 19,
-      "norm_label": "ai estimation assistance"
+      "norm_label": "ai estimation assistance",
+      "id": "ai_architecture_estimation_assistance"
     },
     {
       "label": "AI Graph Reasoning",
@@ -783,9 +688,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_architecture_graph_reasoning",
-      "community": 10,
-      "norm_label": "ai graph reasoning"
+      "community": 11,
+      "norm_label": "ai graph reasoning",
+      "id": "ai_architecture_graph_reasoning"
     },
     {
       "label": "Graph-Aware Context Construction",
@@ -796,9 +701,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_architecture_context_construction",
-      "community": 10,
-      "norm_label": "graph-aware context construction"
+      "community": 11,
+      "norm_label": "graph-aware context construction",
+      "id": "ai_architecture_context_construction"
     },
     {
       "label": "Prompt Template Registry",
@@ -809,9 +714,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_architecture_prompt_registry",
-      "community": 10,
-      "norm_label": "prompt template registry"
+      "community": 11,
+      "norm_label": "prompt template registry",
+      "id": "ai_architecture_prompt_registry"
     },
     {
       "label": "AI Output Lifecycle",
@@ -822,9 +727,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_architecture_output_lifecycle",
       "community": 12,
-      "norm_label": "ai output lifecycle"
+      "norm_label": "ai output lifecycle",
+      "id": "ai_architecture_output_lifecycle"
     },
     {
       "label": "AI Audit Record",
@@ -835,9 +740,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_architecture_audit_record",
-      "community": 10,
-      "norm_label": "ai audit record"
+      "community": 11,
+      "norm_label": "ai audit record",
+      "id": "ai_architecture_audit_record"
     },
     {
       "label": "AI Provider Strategy",
@@ -848,9 +753,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_architecture_provider_strategy",
-      "community": 10,
-      "norm_label": "ai provider strategy"
+      "community": 11,
+      "norm_label": "ai provider strategy",
+      "id": "ai_architecture_provider_strategy"
     },
     {
       "label": "WorkspaceCanvas",
@@ -861,9 +766,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "canvas_engine_workspacecanvas",
-      "community": 2,
-      "norm_label": "workspacecanvas"
+      "community": 3,
+      "norm_label": "workspacecanvas",
+      "id": "canvas_engine_workspacecanvas"
     },
     {
       "label": "NodeRenderer",
@@ -874,9 +779,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "canvas_engine_noderenderer",
-      "community": 2,
-      "norm_label": "noderenderer"
+      "community": 3,
+      "norm_label": "noderenderer",
+      "id": "canvas_engine_noderenderer"
     },
     {
       "label": "EdgeRenderer",
@@ -887,9 +792,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "canvas_engine_edgerenderer",
-      "community": 2,
-      "norm_label": "edgerenderer"
+      "community": 3,
+      "norm_label": "edgerenderer",
+      "id": "canvas_engine_edgerenderer"
     },
     {
       "label": "EdgeTypeRegistry",
@@ -900,9 +805,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "canvas_engine_edgetyperegistry",
-      "community": 2,
-      "norm_label": "edgetyperegistry"
+      "community": 3,
+      "norm_label": "edgetyperegistry",
+      "id": "canvas_engine_edgetyperegistry"
     },
     {
       "label": "Graph Slice",
@@ -913,9 +818,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "canvas_engine_graphslice",
-      "community": 2,
-      "norm_label": "graph slice"
+      "community": 3,
+      "norm_label": "graph slice",
+      "id": "canvas_engine_graphslice"
     },
     {
       "label": "Selection Slice",
@@ -926,9 +831,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "canvas_engine_selectionslice",
-      "community": 2,
-      "norm_label": "selection slice"
+      "community": 3,
+      "norm_label": "selection slice",
+      "id": "canvas_engine_selectionslice"
     },
     {
       "label": "Execution Slice",
@@ -939,9 +844,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "canvas_engine_executionslice",
       "community": 2,
-      "norm_label": "execution slice"
+      "norm_label": "execution slice",
+      "id": "canvas_engine_executionslice"
     },
     {
       "label": "Viewport Slice",
@@ -952,9 +857,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "canvas_engine_viewportslice",
-      "community": 2,
-      "norm_label": "viewport slice"
+      "community": 3,
+      "norm_label": "viewport slice",
+      "id": "canvas_engine_viewportslice"
     },
     {
       "label": "Workspace Slice",
@@ -965,9 +870,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "canvas_engine_workspaceslice",
-      "community": 2,
-      "norm_label": "workspace slice"
+      "community": 3,
+      "norm_label": "workspace slice",
+      "id": "canvas_engine_workspaceslice"
     },
     {
       "label": "useCanvasStore",
@@ -978,9 +883,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "canvas_engine_usecanvasstore",
-      "community": 2,
-      "norm_label": "usecanvasstore"
+      "community": 3,
+      "norm_label": "usecanvasstore",
+      "id": "canvas_engine_usecanvasstore"
     },
     {
       "label": "ws_workspaces Table",
@@ -991,9 +896,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "initial_schema_ws_workspaces",
-      "community": 2,
-      "norm_label": "ws_workspaces table"
+      "community": 7,
+      "norm_label": "ws_workspaces table",
+      "id": "initial_schema_ws_workspaces"
     },
     {
       "label": "graph_graphs Table",
@@ -1004,9 +909,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "initial_schema_graph_graphs",
-      "community": 2,
-      "norm_label": "graph_graphs table"
+      "community": 7,
+      "norm_label": "graph_graphs table",
+      "id": "initial_schema_graph_graphs"
     },
     {
       "label": "node_nodes Table",
@@ -1017,9 +922,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "initial_schema_node_nodes",
-      "community": 9,
-      "norm_label": "node_nodes table"
+      "community": 7,
+      "norm_label": "node_nodes table",
+      "id": "initial_schema_node_nodes"
     },
     {
       "label": "graph_edges Table",
@@ -1030,9 +935,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "initial_schema_graph_edges",
-      "community": 2,
-      "norm_label": "graph_edges table"
+      "community": 3,
+      "norm_label": "graph_edges table",
+      "id": "initial_schema_graph_edges"
     },
     {
       "label": "exec_execution_logs Table",
@@ -1043,9 +948,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "initial_schema_exec_execution_logs",
-      "community": 5,
-      "norm_label": "exec_execution_logs table"
+      "community": 7,
+      "norm_label": "exec_execution_logs table",
+      "id": "initial_schema_exec_execution_logs"
     },
     {
       "label": "exec_staleness_records Table",
@@ -1056,9 +961,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "initial_schema_exec_staleness_records",
-      "community": 9,
-      "norm_label": "exec_staleness_records table"
+      "community": 7,
+      "norm_label": "exec_staleness_records table",
+      "id": "initial_schema_exec_staleness_records"
     },
     {
       "label": "version_snapshots Table",
@@ -1069,9 +974,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "initial_schema_version_snapshots",
-      "community": 2,
-      "norm_label": "version_snapshots table"
+      "community": 7,
+      "norm_label": "version_snapshots table",
+      "id": "initial_schema_version_snapshots"
     },
     {
       "label": "ai_audit_records Table",
@@ -1082,9 +987,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "initial_schema_ai_audit_records",
       "community": 20,
-      "norm_label": "ai_audit_records table"
+      "norm_label": "ai_audit_records table",
+      "id": "initial_schema_ai_audit_records"
     },
     {
       "label": "event_outbox Table",
@@ -1095,9 +1000,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "initial_schema_event_outbox",
       "community": 21,
-      "norm_label": "event_outbox table"
+      "norm_label": "event_outbox table",
+      "id": "initial_schema_event_outbox"
     },
     {
       "label": "Modular Boundaries Architecture",
@@ -1108,9 +1013,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "modular_boundaries_architecture",
       "community": 3,
-      "norm_label": "modular boundaries architecture"
+      "norm_label": "modular boundaries architecture",
+      "id": "modular_boundaries_architecture"
     },
     {
       "label": "Workspace Module",
@@ -1121,9 +1026,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "module_conventions_module_workspace",
       "community": 14,
-      "norm_label": "workspace module"
+      "norm_label": "workspace module",
+      "id": "module_conventions_module_workspace"
     },
     {
       "label": "Graph Module",
@@ -1134,9 +1039,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "module_conventions_module_graph",
-      "community": 5,
-      "norm_label": "graph module"
+      "community": 2,
+      "norm_label": "graph module",
+      "id": "module_conventions_module_graph"
     },
     {
       "label": "Nodes Module",
@@ -1147,9 +1052,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "module_conventions_module_nodes",
-      "community": 5,
-      "norm_label": "nodes module"
+      "community": 2,
+      "norm_label": "nodes module",
+      "id": "module_conventions_module_nodes"
     },
     {
       "label": "Execution Module",
@@ -1160,9 +1065,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "module_conventions_module_execution",
-      "community": 5,
-      "norm_label": "execution module"
+      "community": 2,
+      "norm_label": "execution module",
+      "id": "module_conventions_module_execution"
     },
     {
       "label": "Traceability Module",
@@ -1173,9 +1078,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "module_conventions_module_traceability",
-      "community": 5,
-      "norm_label": "traceability module"
+      "community": 2,
+      "norm_label": "traceability module",
+      "id": "module_conventions_module_traceability"
     },
     {
       "label": "AI Module",
@@ -1186,9 +1091,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "module_conventions_module_ai",
-      "community": 5,
-      "norm_label": "ai module"
+      "community": 2,
+      "norm_label": "ai module",
+      "id": "module_conventions_module_ai"
     },
     {
       "label": "Shared Module",
@@ -1199,9 +1104,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "module_conventions_module_shared",
-      "community": 5,
-      "norm_label": "shared module"
+      "community": 2,
+      "norm_label": "shared module",
+      "id": "module_conventions_module_shared"
     },
     {
       "label": "NodeCreatedEvent",
@@ -1212,9 +1117,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "module_conventions_nodecreatedevent",
-      "community": 5,
-      "norm_label": "nodecreatedevent"
+      "community": 2,
+      "norm_label": "nodecreatedevent",
+      "id": "module_conventions_nodecreatedevent"
     },
     {
       "label": "NodeDefinition Interface",
@@ -1225,9 +1130,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "node_execution_model_nodedefinition",
-      "community": 5,
-      "norm_label": "nodedefinition interface"
+      "community": 2,
+      "norm_label": "nodedefinition interface",
+      "id": "node_execution_model_nodedefinition"
     },
     {
       "label": "NodeExecutionContext",
@@ -1238,9 +1143,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "node_execution_model_nodeexecutioncontext",
-      "community": 5,
-      "norm_label": "nodeexecutioncontext"
+      "community": 2,
+      "norm_label": "nodeexecutioncontext",
+      "id": "node_execution_model_nodeexecutioncontext"
     },
     {
       "label": "NodeRegistry Interface",
@@ -1251,9 +1156,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "node_execution_model_noderegistry",
-      "community": 5,
-      "norm_label": "noderegistry interface"
+      "community": 2,
+      "norm_label": "noderegistry interface",
+      "id": "node_execution_model_noderegistry"
     },
     {
       "label": "ExecuteNodeUseCase",
@@ -1264,9 +1169,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "node_execution_model_executenodeusecase",
-      "community": 5,
-      "norm_label": "executenodeusecase"
+      "community": 2,
+      "norm_label": "executenodeusecase",
+      "id": "node_execution_model_executenodeusecase"
     },
     {
       "label": "AIProviderRef",
@@ -1277,9 +1182,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "node_execution_model_aiproviderref",
-      "community": 5,
-      "norm_label": "aiproviderref"
+      "community": 2,
+      "norm_label": "aiproviderref",
+      "id": "node_execution_model_aiproviderref"
     },
     {
       "label": "Persistence Strategy",
@@ -1290,9 +1195,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "persistence_strategy_persistence_strategy",
-      "community": 22,
-      "norm_label": "persistence strategy"
+      "community": 1,
+      "norm_label": "persistence strategy",
+      "id": "persistence_strategy_persistence_strategy"
     },
     {
       "label": "Next.js",
@@ -1303,9 +1208,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tech_stack_nextjs",
       "community": 14,
-      "norm_label": "next.js"
+      "norm_label": "next.js",
+      "id": "tech_stack_nextjs"
     },
     {
       "label": "React Flow",
@@ -1316,9 +1221,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tech_stack_reactflow",
-      "community": 2,
-      "norm_label": "react flow"
+      "community": 3,
+      "norm_label": "react flow",
+      "id": "tech_stack_reactflow"
     },
     {
       "label": "Zustand",
@@ -1329,9 +1234,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tech_stack_zustand",
-      "community": 2,
-      "norm_label": "zustand"
+      "community": 8,
+      "norm_label": "zustand",
+      "id": "tech_stack_zustand"
     },
     {
       "label": "Prisma ORM",
@@ -1342,9 +1247,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tech_stack_prisma",
-      "community": 9,
-      "norm_label": "prisma orm"
+      "community": 7,
+      "norm_label": "prisma orm",
+      "id": "tech_stack_prisma"
     },
     {
       "label": "BullMQ",
@@ -1355,9 +1260,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tech_stack_bullmq",
-      "community": 5,
-      "norm_label": "bullmq"
+      "community": 2,
+      "norm_label": "bullmq",
+      "id": "tech_stack_bullmq"
     },
     {
       "label": "Anthropic SDK",
@@ -1368,9 +1273,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tech_stack_anthropicsdk",
-      "community": 5,
-      "norm_label": "anthropic sdk"
+      "community": 2,
+      "norm_label": "anthropic sdk",
+      "id": "tech_stack_anthropicsdk"
     },
     {
       "label": "OpenAI SDK",
@@ -1381,9 +1286,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tech_stack_openaisdk",
-      "community": 5,
-      "norm_label": "openai sdk"
+      "community": 2,
+      "norm_label": "openai sdk",
+      "id": "tech_stack_openaisdk"
     },
     {
       "label": "Vitest",
@@ -1394,9 +1299,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tech_stack_vitest",
-      "community": 23,
-      "norm_label": "vitest"
+      "community": 22,
+      "norm_label": "vitest",
+      "id": "tech_stack_vitest"
     },
     {
       "label": "TraversalService",
@@ -1407,9 +1312,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "traceability_model_traversalservice",
       "community": 2,
-      "norm_label": "traversalservice"
+      "norm_label": "traversalservice",
+      "id": "traceability_model_traversalservice"
     },
     {
       "label": "TraversalResult",
@@ -1420,9 +1325,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "traceability_model_traversalresult",
       "community": 2,
-      "norm_label": "traversalresult"
+      "norm_label": "traversalresult",
+      "id": "traceability_model_traversalresult"
     },
     {
       "label": "TraversalPath",
@@ -1433,9 +1338,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "traceability_model_traversalpath",
       "community": 2,
-      "norm_label": "traversalpath"
+      "norm_label": "traversalpath",
+      "id": "traceability_model_traversalpath"
     },
     {
       "label": "Naming Conventions",
@@ -1446,9 +1351,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "brand_naming_conventions",
-      "community": 24,
-      "norm_label": "naming conventions"
+      "community": 23,
+      "norm_label": "naming conventions",
+      "id": "brand_naming_conventions"
     },
     {
       "label": "EngraphSW UI Language Guidelines",
@@ -1459,9 +1364,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ui_language_guidelines",
-      "community": 11,
-      "norm_label": "engraphsw ui language guidelines"
+      "community": 1,
+      "norm_label": "engraphsw ui language guidelines",
+      "id": "ui_language_guidelines"
     },
     {
       "label": "Estimation Artifact",
@@ -1472,9 +1377,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "estimation_domain_estimation",
-      "community": 9,
-      "norm_label": "estimation artifact"
+      "community": 7,
+      "norm_label": "estimation artifact",
+      "id": "estimation_domain_estimation"
     },
     {
       "label": "Requirement Artifact",
@@ -1485,9 +1390,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "functional_requirements_domain_requirement",
-      "community": 9,
-      "norm_label": "requirement artifact"
+      "community": 7,
+      "norm_label": "requirement artifact",
+      "id": "functional_requirements_domain_requirement"
     },
     {
       "label": "Persona Artifact",
@@ -1498,9 +1403,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "personas_domain_persona",
-      "community": 9,
-      "norm_label": "persona artifact"
+      "community": 7,
+      "norm_label": "persona artifact",
+      "id": "personas_domain_persona"
     },
     {
       "label": "Risk Artifact",
@@ -1511,9 +1416,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "risk_analysis_domain_risk",
-      "community": 9,
-      "norm_label": "risk artifact"
+      "community": 7,
+      "norm_label": "risk artifact",
+      "id": "risk_analysis_domain_risk"
     },
     {
       "label": "Stakeholder Artifact",
@@ -1524,9 +1429,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "stakeholder_domain_stakeholder",
-      "community": 9,
-      "norm_label": "stakeholder artifact"
+      "community": 7,
+      "norm_label": "stakeholder artifact",
+      "id": "stakeholder_domain_stakeholder"
     },
     {
       "label": "User Story Artifact",
@@ -1537,9 +1442,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "user_stories_domain_userstory",
-      "community": 9,
-      "norm_label": "user story artifact"
+      "community": 7,
+      "norm_label": "user story artifact",
+      "id": "user_stories_domain_userstory"
     },
     {
       "label": "AI Role Separation",
@@ -1550,9 +1455,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_role_separation_doc",
-      "community": 11,
-      "norm_label": "ai role separation"
+      "community": 1,
+      "norm_label": "ai role separation",
+      "id": "ai_role_separation_doc"
     },
     {
       "label": "Graph Maintenance Guide",
@@ -1563,9 +1468,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "graph_maintenance_guide",
-      "community": 11,
-      "norm_label": "graph maintenance guide"
+      "community": 1,
+      "norm_label": "graph maintenance guide",
+      "id": "graph_maintenance_guide"
     },
     {
       "label": "Orchestration Model",
@@ -1576,9 +1481,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "orchestration_model_doc",
-      "community": 11,
-      "norm_label": "orchestration model"
+      "community": 1,
+      "norm_label": "orchestration model",
+      "id": "orchestration_model_doc"
     },
     {
       "label": "Repository Cognition",
@@ -1589,9 +1494,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "repository_cognition_doc",
-      "community": 11,
-      "norm_label": "repository cognition"
+      "community": 1,
+      "norm_label": "repository cognition",
+      "id": "repository_cognition_doc"
     },
     {
       "label": "Repository Governance",
@@ -1602,9 +1507,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "repository_governance_doc",
-      "community": 11,
-      "norm_label": "repository governance"
+      "community": 1,
+      "norm_label": "repository governance",
+      "id": "repository_governance_doc"
     },
     {
       "label": "CURRENT_PHASE.md Active Phase",
@@ -1615,9 +1520,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "current_phase_doc",
-      "community": 25,
-      "norm_label": "current_phase.md active phase"
+      "community": 24,
+      "norm_label": "current_phase.md active phase",
+      "id": "current_phase_doc"
     },
     {
       "label": "Phase 1A: Repository Foundation and Cognitive Stabilization",
@@ -1628,9 +1533,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase_1a_repository_foundation_doc",
-      "community": 11,
-      "norm_label": "phase 1a: repository foundation and cognitive stabilization"
+      "community": 1,
+      "norm_label": "phase 1a: repository foundation and cognitive stabilization",
+      "id": "phase_1a_repository_foundation_doc"
     },
     {
       "label": "Phase 3 Canvas Engine",
@@ -1641,9 +1546,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase_3_canvas_engine_phase_3",
-      "community": 26,
-      "norm_label": "phase 3 canvas engine"
+      "community": 1,
+      "norm_label": "phase 3 canvas engine",
+      "id": "phase_3_canvas_engine_phase_3"
     },
     {
       "label": "EngraphSW Orchestrator Agent",
@@ -1654,9 +1559,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "orchestrator_agent",
-      "community": 8,
-      "norm_label": "engraphsw orchestrator agent"
+      "community": 9,
+      "norm_label": "engraphsw orchestrator agent",
+      "id": "orchestrator_agent"
     },
     {
       "label": "Implementer Agent (referenced by Orchestrator)",
@@ -1667,9 +1572,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "orchestrator_implementer_ref",
-      "community": 8,
-      "norm_label": "implementer agent (referenced by orchestrator)"
+      "community": 9,
+      "norm_label": "implementer agent (referenced by orchestrator)",
+      "id": "orchestrator_implementer_ref"
     },
     {
       "label": "AI Role Separation (referenced by Orchestrator)",
@@ -1680,9 +1585,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "orchestrator_ai_role_separation",
-      "community": 8,
-      "norm_label": "ai role separation (referenced by orchestrator)"
+      "community": 9,
+      "norm_label": "ai role separation (referenced by orchestrator)",
+      "id": "orchestrator_ai_role_separation"
     },
     {
       "label": "Orchestration Model (referenced by Orchestrator)",
@@ -1693,9 +1598,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "orchestrator_orchestration_model",
-      "community": 8,
-      "norm_label": "orchestration model (referenced by orchestrator)"
+      "community": 9,
+      "norm_label": "orchestration model (referenced by orchestrator)",
+      "id": "orchestrator_orchestration_model"
     },
     {
       "label": "Dependency Propagation Engine",
@@ -1706,9 +1611,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dep_prop_propagation_engine",
-      "community": 1,
-      "norm_label": "dependency propagation engine"
+      "community": 4,
+      "norm_label": "dependency propagation engine",
+      "id": "dep_prop_propagation_engine"
     },
     {
       "label": "Node Staleness Mechanism",
@@ -1719,9 +1624,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dep_prop_staleness",
-      "community": 1,
-      "norm_label": "node staleness mechanism"
+      "community": 4,
+      "norm_label": "node staleness mechanism",
+      "id": "dep_prop_staleness"
     },
     {
       "label": "Invalidation Cascade",
@@ -1732,9 +1637,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dep_prop_invalidation_cascade",
-      "community": 1,
-      "norm_label": "invalidation cascade"
+      "community": 4,
+      "norm_label": "invalidation cascade",
+      "id": "dep_prop_invalidation_cascade"
     },
     {
       "label": "Recalculation Model",
@@ -1745,9 +1650,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dep_prop_recalculation",
-      "community": 1,
-      "norm_label": "recalculation model"
+      "community": 4,
+      "norm_label": "recalculation model",
+      "id": "dep_prop_recalculation"
     },
     {
       "label": "Propagation Boundaries (Hard and Soft)",
@@ -1758,9 +1663,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dep_prop_propagation_boundaries",
-      "community": 6,
-      "norm_label": "propagation boundaries (hard and soft)"
+      "community": 0,
+      "norm_label": "propagation boundaries (hard and soft)",
+      "id": "dep_prop_propagation_boundaries"
     },
     {
       "label": "Cycle Detection (DAG Enforcement)",
@@ -1771,9 +1676,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dep_prop_cycle_detection",
-      "community": 1,
-      "norm_label": "cycle detection (dag enforcement)"
+      "community": 4,
+      "norm_label": "cycle detection (dag enforcement)",
+      "id": "dep_prop_cycle_detection"
     },
     {
       "label": "Batch Propagation Semantics",
@@ -1784,9 +1689,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dep_prop_batch_propagation",
-      "community": 1,
-      "norm_label": "batch propagation semantics"
+      "community": 4,
+      "norm_label": "batch propagation semantics",
+      "id": "dep_prop_batch_propagation"
     },
     {
       "label": "Downstream Propagation (Forward Traversal)",
@@ -1797,9 +1702,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dep_prop_downstream_propagation",
-      "community": 1,
-      "norm_label": "downstream propagation (forward traversal)"
+      "community": 4,
+      "norm_label": "downstream propagation (forward traversal)",
+      "id": "dep_prop_downstream_propagation"
     },
     {
       "label": "Upstream Traversal (Reverse Traversal)",
@@ -1810,9 +1715,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dep_prop_upstream_traversal",
-      "community": 1,
-      "norm_label": "upstream traversal (reverse traversal)"
+      "community": 4,
+      "norm_label": "upstream traversal (reverse traversal)",
+      "id": "dep_prop_upstream_traversal"
     },
     {
       "label": "Typed Edge Semantics (referenced by Dependency Propagation)",
@@ -1823,9 +1728,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dep_prop_typed_edge_ref",
-      "community": 1,
-      "norm_label": "typed edge semantics (referenced by dependency propagation)"
+      "community": 4,
+      "norm_label": "typed edge semantics (referenced by dependency propagation)",
+      "id": "dep_prop_typed_edge_ref"
     },
     {
       "label": "ADR-004 Event-Driven Communication (referenced by Dep. Propagation)",
@@ -1836,9 +1741,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dep_prop_adr004_ref",
-      "community": 1,
-      "norm_label": "adr-004 event-driven communication (referenced by dep. propagation)"
+      "community": 4,
+      "norm_label": "adr-004 event-driven communication (referenced by dep. propagation)",
+      "id": "dep_prop_adr004_ref"
     },
     {
       "label": "Export System Architecture",
@@ -1849,9 +1754,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "export_system",
-      "community": 7,
-      "norm_label": "export system architecture"
+      "community": 6,
+      "norm_label": "export system architecture",
+      "id": "export_system"
     },
     {
       "label": "Report Generation Architecture",
@@ -1862,9 +1767,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "export_report_generation",
-      "community": 7,
-      "norm_label": "report generation architecture"
+      "community": 6,
+      "norm_label": "report generation architecture",
+      "id": "export_report_generation"
     },
     {
       "label": "Export Pipelines",
@@ -1875,9 +1780,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "export_pipelines",
-      "community": 7,
-      "norm_label": "export pipelines"
+      "community": 6,
+      "norm_label": "export pipelines",
+      "id": "export_pipelines"
     },
     {
       "label": "Reusable Export Templates",
@@ -1888,9 +1793,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "export_templates",
-      "community": 7,
-      "norm_label": "reusable export templates"
+      "community": 6,
+      "norm_label": "reusable export templates",
+      "id": "export_templates"
     },
     {
       "label": "Traceability Model (referenced by Export System)",
@@ -1901,9 +1806,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "export_traceability_ref",
-      "community": 7,
-      "norm_label": "traceability model (referenced by export system)"
+      "community": 6,
+      "norm_label": "traceability model (referenced by export system)",
+      "id": "export_traceability_ref"
     },
     {
       "label": "Versioning Strategy",
@@ -1914,9 +1819,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "versioning_strategy",
-      "community": 7,
-      "norm_label": "versioning strategy"
+      "community": 4,
+      "norm_label": "versioning strategy",
+      "id": "versioning_strategy"
     },
     {
       "label": "Revision Lifecycle",
@@ -1927,9 +1832,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "versioning_revision_lifecycle",
-      "community": 7,
-      "norm_label": "revision lifecycle"
+      "community": 4,
+      "norm_label": "revision lifecycle",
+      "id": "versioning_revision_lifecycle"
     },
     {
       "label": "Rollback Semantics",
@@ -1940,9 +1845,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "versioning_rollback",
-      "community": 1,
-      "norm_label": "rollback semantics"
+      "community": 4,
+      "norm_label": "rollback semantics",
+      "id": "versioning_rollback"
     },
     {
       "label": "Snapshot Strategy",
@@ -1953,9 +1858,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "versioning_snapshot",
-      "community": 7,
-      "norm_label": "snapshot strategy"
+      "community": 6,
+      "norm_label": "snapshot strategy",
+      "id": "versioning_snapshot"
     },
     {
       "label": "EngraphSW Brand Guidelines",
@@ -1966,9 +1871,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "brand_guidelines",
-      "community": 8,
-      "norm_label": "engraphsw brand guidelines"
+      "community": 9,
+      "norm_label": "engraphsw brand guidelines",
+      "id": "brand_guidelines"
     },
     {
       "label": "Visual Identity Philosophy",
@@ -1979,9 +1884,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "brand_visual_identity",
-      "community": 8,
-      "norm_label": "visual identity philosophy"
+      "community": 9,
+      "norm_label": "visual identity philosophy",
+      "id": "brand_visual_identity"
     },
     {
       "label": "Dark-First Interface Theme",
@@ -1992,9 +1897,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "brand_dark_first",
-      "community": 8,
-      "norm_label": "dark-first interface theme"
+      "community": 9,
+      "norm_label": "dark-first interface theme",
+      "id": "brand_dark_first"
     },
     {
       "label": "Color Philosophy (Amber Accent + Semantic Colors)",
@@ -2005,9 +1910,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "brand_color_philosophy",
-      "community": 8,
-      "norm_label": "color philosophy (amber accent + semantic colors)"
+      "community": 9,
+      "norm_label": "color philosophy (amber accent + semantic colors)",
+      "id": "brand_color_philosophy"
     },
     {
       "label": "Node Design Philosophy (Engineering-First)",
@@ -2018,9 +1923,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "brand_node_design_philosophy",
-      "community": 8,
-      "norm_label": "node design philosophy (engineering-first)"
+      "community": 9,
+      "norm_label": "node design philosophy (engineering-first)",
+      "id": "brand_node_design_philosophy"
     },
     {
       "label": "AI Brand Philosophy (Transparent Engineering Assistant)",
@@ -2031,9 +1936,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "brand_ai_philosophy",
-      "community": 8,
-      "norm_label": "ai brand philosophy (transparent engineering assistant)"
+      "community": 9,
+      "norm_label": "ai brand philosophy (transparent engineering assistant)",
+      "id": "brand_ai_philosophy"
     },
     {
       "label": "UI Language Guidelines (referenced by Brand Guidelines)",
@@ -2044,9 +1949,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "brand_ui_language_ref",
-      "community": 8,
-      "norm_label": "ui language guidelines (referenced by brand guidelines)"
+      "community": 9,
+      "norm_label": "ui language guidelines (referenced by brand guidelines)",
+      "id": "brand_ui_language_ref"
     },
     {
       "label": "Engineering Artifact Taxonomy",
@@ -2057,9 +1962,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "artifact_taxonomy",
-      "community": 4,
-      "norm_label": "engineering artifact taxonomy"
+      "community": 0,
+      "norm_label": "engineering artifact taxonomy",
+      "id": "artifact_taxonomy"
     },
     {
       "label": "Platform Capability Domains (5 Domains)",
@@ -2070,9 +1975,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "artifact_taxonomy_capability_domains",
-      "community": 4,
-      "norm_label": "platform capability domains (5 domains)"
+      "community": 6,
+      "norm_label": "platform capability domains (5 domains)",
+      "id": "artifact_taxonomy_capability_domains"
     },
     {
       "label": "Context Artifacts Category (Persona, Stakeholder)",
@@ -2083,9 +1988,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "artifact_taxonomy_context_category",
-      "community": 4,
-      "norm_label": "context artifacts category (persona, stakeholder)"
+      "community": 10,
+      "norm_label": "context artifacts category (persona, stakeholder)",
+      "id": "artifact_taxonomy_context_category"
     },
     {
       "label": "Requirements Artifacts Category (FR, User Story)",
@@ -2096,9 +2001,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "artifact_taxonomy_requirements_category",
-      "community": 4,
-      "norm_label": "requirements artifacts category (fr, user story)"
+      "community": 10,
+      "norm_label": "requirements artifacts category (fr, user story)",
+      "id": "artifact_taxonomy_requirements_category"
     },
     {
       "label": "Planning Artifacts Category (WBS, Estimation)",
@@ -2109,9 +2014,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "artifact_taxonomy_planning_category",
-      "community": 4,
-      "norm_label": "planning artifacts category (wbs, estimation)"
+      "community": 6,
+      "norm_label": "planning artifacts category (wbs, estimation)",
+      "id": "artifact_taxonomy_planning_category"
     },
     {
       "label": "Risk Artifacts Category (Risk Analysis)",
@@ -2122,9 +2027,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "artifact_taxonomy_risk_category",
-      "community": 4,
-      "norm_label": "risk artifacts category (risk analysis)"
+      "community": 0,
+      "norm_label": "risk artifacts category (risk analysis)",
+      "id": "artifact_taxonomy_risk_category"
     },
     {
       "label": "Artifact vs Task Boundary",
@@ -2135,9 +2040,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "artifact_taxonomy_artifact_vs_task",
-      "community": 8,
-      "norm_label": "artifact vs task boundary"
+      "community": 9,
+      "norm_label": "artifact vs task boundary",
+      "id": "artifact_taxonomy_artifact_vs_task"
     },
     {
       "label": "Artifact Lifecycle (Created, Active, Stale, Retired)",
@@ -2148,9 +2053,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "artifact_taxonomy_lifecycle",
-      "community": 1,
-      "norm_label": "artifact lifecycle (created, active, stale, retired)"
+      "community": 4,
+      "norm_label": "artifact lifecycle (created, active, stale, retired)",
+      "id": "artifact_taxonomy_lifecycle"
     },
     {
       "label": "Graph Semantic Principles (Artifacts as Nodes)",
@@ -2161,9 +2066,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "artifact_taxonomy_graph_semantics",
-      "community": 4,
-      "norm_label": "graph semantic principles (artifacts as nodes)"
+      "community": 0,
+      "norm_label": "graph semantic principles (artifacts as nodes)",
+      "id": "artifact_taxonomy_graph_semantics"
     },
     {
       "label": "Typed Edge Semantics Document",
@@ -2174,9 +2079,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "typed_edge_semantics",
-      "community": 6,
-      "norm_label": "typed edge semantics document"
+      "community": 0,
+      "norm_label": "typed edge semantics document",
+      "id": "typed_edge_semantics"
     },
     {
       "label": "DERIVED_FROM Edge Type",
@@ -2187,9 +2092,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "edge_derived_from",
-      "community": 6,
-      "norm_label": "derived_from edge type"
+      "community": 0,
+      "norm_label": "derived_from edge type",
+      "id": "edge_derived_from"
     },
     {
       "label": "REFINES Edge Type",
@@ -2200,9 +2105,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "edge_refines",
-      "community": 6,
-      "norm_label": "refines edge type"
+      "community": 0,
+      "norm_label": "refines edge type",
+      "id": "edge_refines"
     },
     {
       "label": "CONTEXTUALIZES Edge Type",
@@ -2213,9 +2118,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "edge_contextualizes",
-      "community": 6,
-      "norm_label": "contextualizes edge type"
+      "community": 0,
+      "norm_label": "contextualizes edge type",
+      "id": "edge_contextualizes"
     },
     {
       "label": "INFLUENCES Edge Type",
@@ -2226,9 +2131,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "edge_influences",
-      "community": 6,
-      "norm_label": "influences edge type"
+      "community": 0,
+      "norm_label": "influences edge type",
+      "id": "edge_influences"
     },
     {
       "label": "IMPLEMENTS Edge Type",
@@ -2239,9 +2144,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "edge_implements",
-      "community": 6,
-      "norm_label": "implements edge type"
+      "community": 0,
+      "norm_label": "implements edge type",
+      "id": "edge_implements"
     },
     {
       "label": "CONTAINS Edge Type (WBS Hierarchy)",
@@ -2252,9 +2157,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "edge_contains",
-      "community": 6,
-      "norm_label": "contains edge type (wbs hierarchy)"
+      "community": 0,
+      "norm_label": "contains edge type (wbs hierarchy)",
+      "id": "edge_contains"
     },
     {
       "label": "ESTIMATES Edge Type",
@@ -2265,9 +2170,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "edge_estimates",
-      "community": 6,
-      "norm_label": "estimates edge type"
+      "community": 0,
+      "norm_label": "estimates edge type",
+      "id": "edge_estimates"
     },
     {
       "label": "EXPOSES Edge Type",
@@ -2278,9 +2183,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "edge_exposes",
-      "community": 6,
-      "norm_label": "exposes edge type"
+      "community": 0,
+      "norm_label": "exposes edge type",
+      "id": "edge_exposes"
     },
     {
       "label": "IMPACTS Edge Type",
@@ -2291,9 +2196,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "edge_impacts",
-      "community": 6,
-      "norm_label": "impacts edge type"
+      "community": 0,
+      "norm_label": "impacts edge type",
+      "id": "edge_impacts"
     },
     {
       "label": "MITIGATES Edge Type",
@@ -2304,9 +2209,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "edge_mitigates",
-      "community": 6,
-      "norm_label": "mitigates edge type"
+      "community": 0,
+      "norm_label": "mitigates edge type",
+      "id": "edge_mitigates"
     },
     {
       "label": "TRACES_TO Edge Type (General Traceability)",
@@ -2317,9 +2222,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "edge_traces_to",
-      "community": 6,
-      "norm_label": "traces_to edge type (general traceability)"
+      "community": 0,
+      "norm_label": "traces_to edge type (general traceability)",
+      "id": "edge_traces_to"
     },
     {
       "label": "Edge Five Dimensions (Semantic, Endpoints, Direction, Propagation, Traceability)",
@@ -2330,9 +2235,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "edge_five_dimensions",
-      "community": 6,
-      "norm_label": "edge five dimensions (semantic, endpoints, direction, propagation, traceability)"
+      "community": 0,
+      "norm_label": "edge five dimensions (semantic, endpoints, direction, propagation, traceability)",
+      "id": "edge_five_dimensions"
     },
     {
       "label": "Phase 10 \u2014 Exports & Reporting",
@@ -2343,9 +2248,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase10_exports",
-      "community": 7,
-      "norm_label": "phase 10 \u2014 exports & reporting"
+      "community": 6,
+      "norm_label": "phase 10 \u2014 exports & reporting",
+      "id": "phase10_exports"
     },
     {
       "label": "Phase 1B \u2014 Specification Hardening & Implementation Readiness",
@@ -2356,9 +2261,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase1b_specification",
       "community": 1,
-      "norm_label": "phase 1b \u2014 specification hardening & implementation readiness"
+      "norm_label": "phase 1b \u2014 specification hardening & implementation readiness",
+      "id": "phase1b_specification"
     },
     {
       "label": "Stream 1 \u2014 Graph Health Closure",
@@ -2369,9 +2274,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase1b_stream1_graph_health",
       "community": 1,
-      "norm_label": "stream 1 \u2014 graph health closure"
+      "norm_label": "stream 1 \u2014 graph health closure",
+      "id": "phase1b_stream1_graph_health"
     },
     {
       "label": "Stream 2 \u2014 Missing Critical Documents",
@@ -2382,9 +2287,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase1b_stream2_missing_docs",
       "community": 1,
-      "norm_label": "stream 2 \u2014 missing critical documents"
+      "norm_label": "stream 2 \u2014 missing critical documents",
+      "id": "phase1b_stream2_missing_docs"
     },
     {
       "label": "Stream 3 \u2014 ADR Completion (ADR-006, ADR-007)",
@@ -2395,9 +2300,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase1b_stream3_adr",
       "community": 1,
-      "norm_label": "stream 3 \u2014 adr completion (adr-006, adr-007)"
+      "norm_label": "stream 3 \u2014 adr completion (adr-006, adr-007)",
+      "id": "phase1b_stream3_adr"
     },
     {
       "label": "Stream 4 \u2014 Architecture Specification Hardening",
@@ -2408,22 +2313,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase1b_stream4_arch_hardening",
       "community": 1,
-      "norm_label": "stream 4 \u2014 architecture specification hardening"
-    },
-    {
-      "label": "Stream 5 \u2014 Domain Specification Hardening",
-      "file_type": "rationale",
-      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "phase1b_stream5_domain_hardening",
-      "community": 4,
-      "norm_label": "stream 5 \u2014 domain specification hardening"
+      "norm_label": "stream 4 \u2014 architecture specification hardening",
+      "id": "phase1b_stream4_arch_hardening"
     },
     {
       "label": "Phase 2 \u2014 System Architecture",
@@ -2434,9 +2326,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase2_system_architecture",
       "community": 1,
-      "norm_label": "phase 2 \u2014 system architecture"
+      "norm_label": "phase 2 \u2014 system architecture",
+      "id": "phase2_system_architecture"
     },
     {
       "label": "Phase 4 \u2014 Node Framework",
@@ -2447,9 +2339,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase4_node_framework",
-      "community": 1,
-      "norm_label": "phase 4 \u2014 node framework"
+      "community": 10,
+      "norm_label": "phase 4 \u2014 node framework",
+      "id": "phase4_node_framework"
     },
     {
       "label": "Base Node System (BaseNode, NodeDefinition, ExecutionContext)",
@@ -2460,9 +2352,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase4_base_node_system",
-      "community": 1,
-      "norm_label": "base node system (basenode, nodedefinition, executioncontext)"
+      "community": 10,
+      "norm_label": "base node system (basenode, nodedefinition, executioncontext)",
+      "id": "phase4_base_node_system"
     },
     {
       "label": "Execution Engine (Phase 4)",
@@ -2473,9 +2365,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase4_execution_engine",
-      "community": 1,
-      "norm_label": "execution engine (phase 4)"
+      "community": 10,
+      "norm_label": "execution engine (phase 4)",
+      "id": "phase4_execution_engine"
     },
     {
       "label": "Node Execution States (idle, running, success, failed, stale)",
@@ -2486,9 +2378,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase4_node_states",
-      "community": 1,
-      "norm_label": "node execution states (idle, running, success, failed, stale)"
+      "community": 10,
+      "norm_label": "node execution states (idle, running, success, failed, stale)",
+      "id": "phase4_node_states"
     },
     {
       "label": "Phase 5 \u2014 Initial SDLC Nodes",
@@ -2499,9 +2391,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase5_sdlc_nodes",
-      "community": 4,
-      "norm_label": "phase 5 \u2014 initial sdlc nodes"
+      "community": 10,
+      "norm_label": "phase 5 \u2014 initial sdlc nodes",
+      "id": "phase5_sdlc_nodes"
     },
     {
       "label": "Functional Requirements Node",
@@ -2512,9 +2404,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase5_functional_requirements_node",
-      "community": 4,
-      "norm_label": "functional requirements node"
+      "community": 10,
+      "norm_label": "functional requirements node",
+      "id": "phase5_functional_requirements_node"
     },
     {
       "label": "Personas Node",
@@ -2525,9 +2417,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase5_personas_node",
-      "community": 4,
-      "norm_label": "personas node"
+      "community": 10,
+      "norm_label": "personas node",
+      "id": "phase5_personas_node"
     },
     {
       "label": "User Stories Node",
@@ -2538,9 +2430,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase5_user_stories_node",
-      "community": 4,
-      "norm_label": "user stories node"
+      "community": 10,
+      "norm_label": "user stories node",
+      "id": "phase5_user_stories_node"
     },
     {
       "label": "Stakeholder Node",
@@ -2551,9 +2443,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase5_stakeholder_node",
-      "community": 4,
-      "norm_label": "stakeholder node"
+      "community": 10,
+      "norm_label": "stakeholder node",
+      "id": "phase5_stakeholder_node"
     },
     {
       "label": "Phase 6 \u2014 Function Point Analysis",
@@ -2564,9 +2456,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase6_function_point_analysis",
-      "community": 4,
-      "norm_label": "phase 6 \u2014 function point analysis"
+      "community": 6,
+      "norm_label": "phase 6 \u2014 function point analysis",
+      "id": "phase6_function_point_analysis"
     },
     {
       "label": "Function Point Node",
@@ -2577,9 +2469,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase6_function_point_node",
-      "community": 4,
-      "norm_label": "function point node"
+      "community": 6,
+      "norm_label": "function point node",
+      "id": "phase6_function_point_node"
     },
     {
       "label": "Phase 7 \u2014 AI Features",
@@ -2590,9 +2482,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase7_ai_features",
-      "community": 4,
-      "norm_label": "phase 7 \u2014 ai features"
+      "community": 6,
+      "norm_label": "phase 7 \u2014 ai features",
+      "id": "phase7_ai_features"
     },
     {
       "label": "AI Provider Abstraction (OpenAI + Anthropic)",
@@ -2603,9 +2495,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase7_provider_abstraction",
-      "community": 4,
-      "norm_label": "ai provider abstraction (openai + anthropic)"
+      "community": 6,
+      "norm_label": "ai provider abstraction (openai + anthropic)",
+      "id": "phase7_provider_abstraction"
     },
     {
       "label": "AI Generation Workflows",
@@ -2616,9 +2508,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase7_ai_generation_workflows",
-      "community": 4,
-      "norm_label": "ai generation workflows"
+      "community": 6,
+      "norm_label": "ai generation workflows",
+      "id": "phase7_ai_generation_workflows"
     },
     {
       "label": "Phase 8 \u2014 Collaboration",
@@ -2629,9 +2521,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase8_collaboration",
-      "community": 7,
-      "norm_label": "phase 8 \u2014 collaboration"
+      "community": 6,
+      "norm_label": "phase 8 \u2014 collaboration",
+      "id": "phase8_collaboration"
     },
     {
       "label": "Liveblocks Realtime Integration",
@@ -2642,9 +2534,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase8_liveblocks",
-      "community": 7,
-      "norm_label": "liveblocks realtime integration"
+      "community": 6,
+      "norm_label": "liveblocks realtime integration",
+      "id": "phase8_liveblocks"
     },
     {
       "label": "Phase 9 \u2014 Versioning & History",
@@ -2655,9 +2547,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase9_versioning",
-      "community": 7,
-      "norm_label": "phase 9 \u2014 versioning & history"
+      "community": 6,
+      "norm_label": "phase 9 \u2014 versioning & history",
+      "id": "phase9_versioning"
     },
     {
       "label": "Artifact Snapshots & Rollback Operations",
@@ -2668,9 +2560,594 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase9_artifact_snapshots",
-      "community": 7,
-      "norm_label": "artifact snapshots & rollback operations"
+      "community": 6,
+      "norm_label": "artifact snapshots & rollback operations",
+      "id": "phase9_artifact_snapshots"
+    },
+    {
+      "label": "Canvas Engine",
+      "file_type": "document",
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 3,
+      "norm_label": "canvas engine",
+      "id": "canvas_engine_canvas_engine"
+    },
+    {
+      "label": "Staleness",
+      "file_type": "concept",
+      "source_file": "docs/architecture/dependency-propagation.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "staleness",
+      "id": "dependency_propagation_staleness"
+    },
+    {
+      "label": "Technology Stack",
+      "file_type": "document",
+      "source_file": "docs/architecture/tech-stack.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 1,
+      "norm_label": "technology stack",
+      "id": "tech_stack_tech_stack"
+    },
+    {
+      "label": "CONTAINS Edge Type",
+      "file_type": "concept",
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "contains edge type",
+      "id": "typed_edge_semantics_contains"
+    },
+    {
+      "label": "TRACES_TO Edge Type",
+      "file_type": "concept",
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "traces_to edge type",
+      "id": "typed_edge_semantics_traces_to"
+    },
+    {
+      "label": "Canvas Engine Architecture",
+      "file_type": "document",
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 3,
+      "norm_label": "canvas engine architecture",
+      "id": "canvas_engine_architecture"
+    },
+    {
+      "label": "Node Execution Model",
+      "file_type": "document",
+      "source_file": "docs/architecture/node-execution-model.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 2,
+      "norm_label": "node execution model",
+      "id": "node_execution_model_architecture"
+    },
+    {
+      "label": "Estimation Domain",
+      "file_type": "document",
+      "source_file": "docs/domain/estimation-domain.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "estimation domain",
+      "id": "estimation_domain_domain"
+    },
+    {
+      "label": "Functional Requirements Domain",
+      "file_type": "document",
+      "source_file": "docs/domain/functional-requirements-domain.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "functional requirements domain",
+      "id": "functional_requirements_domain_domain"
+    },
+    {
+      "label": "Personas Domain",
+      "file_type": "document",
+      "source_file": "docs/domain/personas-domain.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "personas domain",
+      "id": "personas_domain_domain"
+    },
+    {
+      "label": "Risk Analysis Domain",
+      "file_type": "document",
+      "source_file": "docs/domain/risk-analysis-domain.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "risk analysis domain",
+      "id": "risk_analysis_domain_domain"
+    },
+    {
+      "label": "Stakeholder Domain",
+      "file_type": "document",
+      "source_file": "docs/domain/stakeholder-domain.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "stakeholder domain",
+      "id": "stakeholder_domain_domain"
+    },
+    {
+      "label": "User Stories Domain",
+      "file_type": "document",
+      "source_file": "docs/domain/user-stories-domain.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "user stories domain",
+      "id": "user_stories_domain_domain"
+    },
+    {
+      "label": "Phase 1A Repository Foundation",
+      "file_type": "document",
+      "source_file": "docs/roadmap/PHASE_1A_REPOSITORY_FOUNDATION.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 1,
+      "norm_label": "phase 1a repository foundation",
+      "id": "phase_1a_repository_foundation_phase"
+    },
+    {
+      "label": "Phase 9 Versioning and History",
+      "file_type": "document",
+      "source_file": "docs/roadmap/PHASE_9_VERSIONING.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "phase 9 versioning and history",
+      "id": "phase_9_versioning_phase"
+    },
+    {
+      "label": "NodeRegistry",
+      "file_type": "concept",
+      "source_file": "docs/architecture/node-execution-model.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 2,
+      "norm_label": "noderegistry",
+      "id": "node_execution_model_node_registry"
+    },
+    {
+      "label": "Phase 1B: Specification Hardening",
+      "file_type": "document",
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 1,
+      "norm_label": "phase 1b: specification hardening",
+      "id": "phase_1b_specification_phase_1b"
+    },
+    {
+      "label": "Stream 3: ADR Completion",
+      "file_type": "rationale",
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 3,
+      "norm_label": "stream 3: adr completion",
+      "id": "phase_1b_specification_stream3"
+    },
+    {
+      "label": "Stream 5: Domain Specification Hardening",
+      "file_type": "rationale",
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 5",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "stream 5: domain specification hardening",
+      "id": "phase_1b_specification_stream5"
+    },
+    {
+      "label": "Stream 6: Phase Gate",
+      "file_type": "rationale",
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 6",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 1,
+      "norm_label": "stream 6: phase gate",
+      "id": "phase_1b_specification_stream6"
+    },
+    {
+      "label": "Folder Structure Deliverable",
+      "file_type": "rationale",
+      "source_file": "docs/roadmap/PHASE_2_SYSTEM_ARCHITECTURE.md",
+      "source_location": "Folder Structure",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 1,
+      "norm_label": "folder structure deliverable",
+      "id": "phase_2_system_architecture_folder_structure"
+    },
+    {
+      "label": "Graph Model Deliverable",
+      "file_type": "rationale",
+      "source_file": "docs/roadmap/PHASE_2_SYSTEM_ARCHITECTURE.md",
+      "source_location": "Graph Model",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 1,
+      "norm_label": "graph model deliverable",
+      "id": "phase_2_system_architecture_graph_model"
+    },
+    {
+      "label": "Node Architecture Deliverable",
+      "file_type": "rationale",
+      "source_file": "docs/roadmap/PHASE_2_SYSTEM_ARCHITECTURE.md",
+      "source_location": "Node Architecture",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 2,
+      "norm_label": "node architecture deliverable",
+      "id": "phase_2_system_architecture_node_architecture"
+    },
+    {
+      "label": "Database Architecture Deliverable",
+      "file_type": "rationale",
+      "source_file": "docs/roadmap/PHASE_2_SYSTEM_ARCHITECTURE.md",
+      "source_location": "Database Architecture",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 1,
+      "norm_label": "database architecture deliverable",
+      "id": "phase_2_system_architecture_database_architecture"
+    },
+    {
+      "label": "Event-Driven Architecture Deliverable",
+      "file_type": "rationale",
+      "source_file": "docs/roadmap/PHASE_2_SYSTEM_ARCHITECTURE.md",
+      "source_location": "Event-Driven Architecture",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 1,
+      "norm_label": "event-driven architecture deliverable",
+      "id": "phase_2_system_architecture_event_driven"
+    },
+    {
+      "label": "Dependency Propagation Deliverable",
+      "file_type": "rationale",
+      "source_file": "docs/roadmap/PHASE_2_SYSTEM_ARCHITECTURE.md",
+      "source_location": "Dependency Propagation",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 1,
+      "norm_label": "dependency propagation deliverable",
+      "id": "phase_2_system_architecture_dependency_propagation"
+    },
+    {
+      "label": "NodeDefinition Interface (Phase 2 Scope)",
+      "file_type": "concept",
+      "source_file": "docs/roadmap/PHASE_2_SYSTEM_ARCHITECTURE.md",
+      "source_location": "Node Architecture",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 2,
+      "norm_label": "nodedefinition interface (phase 2 scope)",
+      "id": "phase_2_system_architecture_node_definition"
+    },
+    {
+      "label": "Module Conventions Document",
+      "file_type": "document",
+      "source_file": "docs/architecture/module-conventions.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 1,
+      "norm_label": "module conventions document",
+      "id": "module_conventions_module_conventions"
+    },
+    {
+      "label": "Initial Schema Document",
+      "file_type": "document",
+      "source_file": "docs/architecture/initial-schema.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 1,
+      "norm_label": "initial schema document",
+      "id": "initial_schema_initial_schema"
+    },
+    {
+      "label": "NodeDefinition Interface Contract",
+      "file_type": "concept",
+      "source_file": "docs/architecture/node-execution-model.md",
+      "source_location": "Stream 4 - NodeDefinition interface",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 2,
+      "norm_label": "nodedefinition interface contract",
+      "id": "node_execution_model_node_definition"
+    },
+    {
+      "label": "Execution State Machine",
+      "file_type": "concept",
+      "source_file": "docs/architecture/node-execution-model.md",
+      "source_location": "Stream 4 - state machine",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 2,
+      "norm_label": "execution state machine",
+      "id": "node_execution_model_state_machine"
+    },
+    {
+      "label": "React Flow Component Breakdown",
+      "file_type": "concept",
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": "Stream 4 - React Flow component breakdown",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 3,
+      "norm_label": "react flow component breakdown",
+      "id": "canvas_engine_react_flow_breakdown"
+    },
+    {
+      "label": "Zustand Store Design",
+      "file_type": "concept",
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": "Stream 4 - Zustand store design",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 3,
+      "norm_label": "zustand store design",
+      "id": "canvas_engine_zustand_store"
+    },
+    {
+      "label": "Traceability Model Document",
+      "file_type": "document",
+      "source_file": "docs/architecture/traceability-model.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 1,
+      "norm_label": "traceability model document",
+      "id": "traceability_model_traceability_model"
+    },
+    {
+      "label": "User Stories Domain Schema",
+      "file_type": "document",
+      "source_file": "docs/domain/user-stories-domain.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "user stories domain schema",
+      "id": "user_stories_domain_schema"
+    },
+    {
+      "label": "Personas Domain Schema",
+      "file_type": "document",
+      "source_file": "docs/domain/personas-domain.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "personas domain schema",
+      "id": "personas_domain_schema"
+    },
+    {
+      "label": "Stakeholder Domain Schema",
+      "file_type": "document",
+      "source_file": "docs/domain/stakeholder-domain.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "stakeholder domain schema",
+      "id": "stakeholder_domain_schema"
+    },
+    {
+      "label": "Estimation Domain Schema",
+      "file_type": "document",
+      "source_file": "docs/domain/estimation-domain.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "estimation domain schema",
+      "id": "estimation_domain_schema"
+    },
+    {
+      "label": "Risk Analysis Domain Schema",
+      "file_type": "document",
+      "source_file": "docs/domain/risk-analysis-domain.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "risk analysis domain schema",
+      "id": "risk_analysis_domain_schema"
+    },
+    {
+      "label": "ADR-006: Canvas Technology",
+      "file_type": "rationale",
+      "source_file": "docs/adr/006-canvas-technology.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 3,
+      "norm_label": "adr-006: canvas technology",
+      "id": "adr_006_canvas_technology"
+    },
+    {
+      "label": "Typed Edge Semantics",
+      "file_type": "document",
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "typed edge semantics",
+      "id": "typed_edge_semantics_typed_edges"
+    },
+    {
+      "label": "Dependency Propagation Document",
+      "file_type": "document",
+      "source_file": "docs/architecture/dependency-propagation.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 1,
+      "norm_label": "dependency propagation document",
+      "id": "dependency_propagation_propagation"
+    },
+    {
+      "label": "CURRENT_PHASE Document",
+      "file_type": "document",
+      "source_file": "docs/roadmap/CURRENT_PHASE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 1,
+      "norm_label": "current_phase document",
+      "id": "current_phase_current_phase"
+    },
+    {
+      "label": "Graphify Graph Report",
+      "file_type": "document",
+      "source_file": "graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 1,
+      "norm_label": "graphify graph report",
+      "id": "graph_report_graph_report"
+    },
+    {
+      "label": "Modular Boundaries",
+      "file_type": "document",
+      "source_file": "docs/architecture/modular-boundaries.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 1,
+      "norm_label": "modular boundaries",
+      "id": "modular_boundaries_modular_boundaries"
     }
   ],
   "links": [
@@ -3075,6 +3552,106 @@
       "target": "concept_dependency_propagation"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "typed_edge_semantics_typed_edges",
+      "target": "concept_dependency_propagation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/architecture/dependency-propagation.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "concept_dependency_propagation",
+      "target": "node_execution_model_state_machine"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/dependency-propagation.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "concept_dependency_propagation",
+      "target": "dependency_propagation_staleness"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/dependency-propagation.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "concept_dependency_propagation",
+      "target": "dep_prop_invalidation_cascade"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/dependency-propagation.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "concept_dependency_propagation",
+      "target": "dep_prop_recalculation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.95,
+      "source": "node_execution_model_architecture",
+      "target": "concept_dependency_propagation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/node-execution-model.md",
+      "source_location": null,
+      "weight": 0.95,
+      "source": "node_execution_model_executenodeusecase",
+      "target": "concept_dependency_propagation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/versioning-strategy.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "versioning_strategy",
+      "target": "concept_dependency_propagation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "concept_dependency_propagation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.95,
+      "source": "traceability_model_traceability_model",
+      "target": "concept_dependency_propagation"
+    },
+    {
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -3205,6 +3782,26 @@
       "target": "006_canvas_technology_react_flow"
     },
     {
+      "relation": "references",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.8,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.8,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "006_canvas_technology_adr"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "006_canvas_technology_adr",
+      "target": "canvas_engine_canvas_engine"
+    },
+    {
       "relation": "implements",
       "confidence": "EXTRACTED",
       "confidence_score": 0.95,
@@ -3241,7 +3838,7 @@
       "source_file": "docs/adr/007-state-management.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "007_state_management_zustand",
+      "source": "tech_stack_zustand",
       "target": "006_canvas_technology_react_flow"
     },
     {
@@ -3262,7 +3859,77 @@
       "source_location": null,
       "weight": 1.0,
       "source": "007_state_management_adr",
-      "target": "007_state_management_zustand"
+      "target": "tech_stack_zustand"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "007_state_management_adr",
+      "target": "canvas_engine_canvas_engine"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/tech-stack.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "tech_stack_tech_stack",
+      "target": "007_state_management_adr"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "canvas_engine_architecture",
+      "target": "007_state_management_adr"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 3 - ADR-007",
+      "weight": 1.0,
+      "source": "phase_1b_specification_stream3",
+      "target": "007_state_management_adr"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 4 - canvas-engine.md requires ADR-007",
+      "weight": 0.9,
+      "source": "phase1b_stream4_arch_hardening",
+      "target": "007_state_management_adr"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 3 - ADR-007 store design implications",
+      "weight": 1.0,
+      "source": "007_state_management_adr",
+      "target": "canvas_engine_zustand_store"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "007_state_management_adr"
     },
     {
       "relation": "conceptually_related_to",
@@ -3271,7 +3938,7 @@
       "source_file": "docs/adr/007-state-management.md",
       "source_location": null,
       "weight": 0.7,
-      "source": "007_state_management_zustand",
+      "source": "tech_stack_zustand",
       "target": "007_state_management_redux_toolkit"
     },
     {
@@ -3281,7 +3948,7 @@
       "source_file": "docs/adr/007-state-management.md",
       "source_location": null,
       "weight": 0.7,
-      "source": "007_state_management_zustand",
+      "source": "tech_stack_zustand",
       "target": "007_state_management_jotai"
     },
     {
@@ -3291,7 +3958,7 @@
       "source_file": "docs/adr/007-state-management.md",
       "source_location": null,
       "weight": 0.7,
-      "source": "007_state_management_zustand",
+      "source": "tech_stack_zustand",
       "target": "007_state_management_react_context"
     },
     {
@@ -3301,7 +3968,7 @@
       "source_file": "docs/adr/007-state-management.md",
       "source_location": null,
       "weight": 0.9,
-      "source": "007_state_management_zustand",
+      "source": "tech_stack_zustand",
       "target": "007_state_management_graph_slice"
     },
     {
@@ -3311,7 +3978,7 @@
       "source_file": "docs/adr/007-state-management.md",
       "source_location": null,
       "weight": 0.9,
-      "source": "007_state_management_zustand",
+      "source": "tech_stack_zustand",
       "target": "007_state_management_selection_slice"
     },
     {
@@ -3321,7 +3988,7 @@
       "source_file": "docs/adr/007-state-management.md",
       "source_location": null,
       "weight": 0.9,
-      "source": "007_state_management_zustand",
+      "source": "tech_stack_zustand",
       "target": "007_state_management_execution_slice"
     },
     {
@@ -3331,7 +3998,7 @@
       "source_file": "docs/adr/007-state-management.md",
       "source_location": null,
       "weight": 0.9,
-      "source": "007_state_management_zustand",
+      "source": "tech_stack_zustand",
       "target": "007_state_management_viewport_slice"
     },
     {
@@ -3341,7 +4008,7 @@
       "source_file": "docs/adr/007-state-management.md",
       "source_location": null,
       "weight": 0.9,
-      "source": "007_state_management_zustand",
+      "source": "tech_stack_zustand",
       "target": "007_state_management_workspace_slice"
     },
     {
@@ -3477,12 +4144,132 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "canvas_engine_canvas_engine",
+      "target": "canvas_engine_workspacecanvas"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "canvas_engine_workspacecanvas",
+      "target": "canvas_engine_graphslice"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "canvas_engine_architecture",
+      "target": "canvas_engine_workspacecanvas"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 0.85,
+      "source": "canvas_engine_workspacecanvas",
+      "target": "canvas_engine_selectionslice"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 0.85,
+      "source": "canvas_engine_workspacecanvas",
+      "target": "canvas_engine_executionslice"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 0.85,
+      "source": "canvas_engine_workspacecanvas",
+      "target": "canvas_engine_viewportslice"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 0.85,
+      "source": "canvas_engine_workspacecanvas",
+      "target": "canvas_engine_workspaceslice"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "canvas_engine_canvas_engine",
+      "target": "canvas_engine_noderenderer"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "canvas_engine_noderenderer",
+      "target": "node_execution_model_nodedefinition"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "canvas_engine_architecture",
+      "target": "canvas_engine_noderenderer"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "docs/architecture/canvas-engine.md",
       "source_location": null,
       "weight": 1.0,
       "source": "canvas_engine_edgerenderer",
       "target": "canvas_engine_edgetyperegistry"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "canvas_engine_canvas_engine",
+      "target": "canvas_engine_edgerenderer"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "canvas_engine_architecture",
+      "target": "canvas_engine_edgerenderer"
     },
     {
       "relation": "references",
@@ -3493,6 +4280,36 @@
       "weight": 0.8,
       "source": "canvas_engine_edgetyperegistry",
       "target": "initial_schema_graph_edges"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "canvas_engine_canvas_engine",
+      "target": "canvas_engine_edgetyperegistry"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "canvas_engine_edgetyperegistry",
+      "target": "typed_edge_semantics_typed_edges"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "canvas_engine_architecture",
+      "target": "canvas_engine_edgetyperegistry"
     },
     {
       "relation": "implements",
@@ -3525,6 +4342,26 @@
       "target": "initial_schema_graph_edges"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "canvas_engine_canvas_engine",
+      "target": "canvas_engine_graphslice"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "canvas_engine_architecture",
+      "target": "canvas_engine_graphslice"
+    },
+    {
       "relation": "implements",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -3532,6 +4369,16 @@
       "source_location": null,
       "weight": 1.0,
       "source": "canvas_engine_usecanvasstore",
+      "target": "canvas_engine_selectionslice"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "canvas_engine_canvas_engine",
       "target": "canvas_engine_selectionslice"
     },
     {
@@ -3546,13 +4393,43 @@
     },
     {
       "relation": "references",
-      "confidence": "INFERRED",
-      "confidence_score": 0.75,
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "docs/architecture/canvas-engine.md",
       "source_location": null,
-      "weight": 0.8,
+      "weight": 1.0,
       "source": "canvas_engine_executionslice",
       "target": "node_execution_model_executenodeusecase"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "canvas_engine_canvas_engine",
+      "target": "canvas_engine_executionslice"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "canvas_engine_executionslice",
+      "target": "node_execution_model_state_machine"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "canvas_engine_executionslice",
+      "target": "node_execution_model_architecture"
     },
     {
       "relation": "implements",
@@ -3565,6 +4442,16 @@
       "target": "canvas_engine_viewportslice"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "canvas_engine_canvas_engine",
+      "target": "canvas_engine_viewportslice"
+    },
+    {
       "relation": "implements",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -3572,6 +4459,16 @@
       "source_location": null,
       "weight": 1.0,
       "source": "canvas_engine_usecanvasstore",
+      "target": "canvas_engine_workspaceslice"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "canvas_engine_canvas_engine",
       "target": "canvas_engine_workspaceslice"
     },
     {
@@ -3957,7 +4854,7 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
+      "confidence_score": 1.0,
       "source_file": "docs/architecture/node-execution-model.md",
       "source_location": null,
       "weight": 1.0,
@@ -3965,13 +4862,43 @@
       "target": "node_execution_model_nodeexecutioncontext"
     },
     {
-      "relation": "references",
+      "relation": "calls",
       "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
+      "confidence_score": 1.0,
       "source_file": "docs/architecture/node-execution-model.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "node_execution_model_noderegistry",
+      "source": "node_execution_model_nodedefinition",
+      "target": "node_execution_model_noderegistry"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.95,
+      "source": "node_execution_model_architecture",
+      "target": "node_execution_model_nodedefinition"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/node-execution-model.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "node_execution_model_executenodeusecase",
+      "target": "node_execution_model_nodedefinition"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/node-execution-model.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "node_execution_model_node_registry",
       "target": "node_execution_model_nodedefinition"
     },
     {
@@ -3987,12 +4914,62 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
+      "confidence_score": 1.0,
       "source_file": "docs/architecture/node-execution-model.md",
       "source_location": null,
       "weight": 1.0,
       "source": "node_execution_model_executenodeusecase",
       "target": "node_execution_model_noderegistry"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/node-execution-model.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "node_execution_model_executenodeusecase",
+      "target": "node_execution_model_state_machine"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/node-execution-model.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "node_execution_model_architecture",
+      "target": "node_execution_model_executenodeusecase"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/node-execution-model.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "node_execution_model_executenodeusecase",
+      "target": "node_execution_model_node_registry"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "persistence_strategy_persistence_strategy"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.95,
+      "source": "initial_schema_initial_schema",
+      "target": "persistence_strategy_persistence_strategy"
     },
     {
       "relation": "references",
@@ -4065,6 +5042,46 @@
       "target": "estimation_domain_estimation"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/estimation-domain.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "estimation_domain_domain",
+      "target": "estimation_domain_estimation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "estimation_domain_estimation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "estimation_domain_estimation",
+      "target": "typed_edge_semantics_typed_edges"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "estimation_domain_estimation",
+      "target": "artifact_taxonomy"
+    },
+    {
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -4105,6 +5122,16 @@
       "target": "risk_analysis_domain_risk"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/functional-requirements-domain.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "functional_requirements_domain_domain",
+      "target": "functional_requirements_domain_requirement"
+    },
+    {
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -4117,12 +5144,22 @@
     {
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
-      "confidence_score": 0.9,
+      "confidence_score": 1.0,
       "source_file": "docs/domain/personas-domain.md",
       "source_location": null,
-      "weight": 0.9,
+      "weight": 1.0,
       "source": "personas_domain_persona",
       "target": "stakeholder_domain_stakeholder"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/personas-domain.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "personas_domain_domain",
+      "target": "personas_domain_persona"
     },
     {
       "relation": "conceptually_related_to",
@@ -4141,8 +5178,78 @@
       "source_file": "docs/domain/stakeholder-domain.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "stakeholder_domain_stakeholder",
+      "source": "risk_analysis_domain_risk",
+      "target": "stakeholder_domain_stakeholder"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/risk-analysis-domain.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "risk_analysis_domain_domain",
       "target": "risk_analysis_domain_risk"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/stakeholder-domain.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "stakeholder_domain_domain",
+      "target": "stakeholder_domain_stakeholder"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "stakeholder_domain_stakeholder"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "stakeholder_domain_stakeholder",
+      "target": "typed_edge_semantics_typed_edges"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "stakeholder_domain_stakeholder",
+      "target": "artifact_taxonomy"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.8,
+      "source": "stakeholder_domain_stakeholder",
+      "target": "personas_domain_domain"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/user-stories-domain.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "user_stories_domain_domain",
+      "target": "user_stories_domain_userstory"
     },
     {
       "relation": "references",
@@ -4185,14 +5292,44 @@
       "target": "orchestration_model_doc"
     },
     {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.75,
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "docs/meta/graph-maintenance.md",
       "source_location": null,
-      "weight": 0.75,
+      "weight": 1.0,
       "source": "graph_maintenance_guide",
       "target": "repository_cognition_doc"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/roadmap/PHASE_1A_REPOSITORY_FOUNDATION.md",
+      "source_location": null,
+      "weight": 0.75,
+      "source": "phase_1a_repository_foundation_phase",
+      "target": "graph_maintenance_guide"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "graph_maintenance_guide"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 1 - Wiki generation",
+      "weight": 0.9,
+      "source": "phase1b_stream1_graph_health",
+      "target": "graph_maintenance_guide"
     },
     {
       "relation": "references",
@@ -4237,12 +5374,72 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/roadmap/PHASE_1A_REPOSITORY_FOUNDATION.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "phase_1a_repository_foundation_phase",
+      "target": "repository_cognition_doc"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": ".claude/agents/orchestrator.md",
+      "source_location": null,
+      "weight": 0.85,
+      "source": "orchestrator_agent",
+      "target": "repository_cognition_doc"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/roadmap/PHASE_1A_REPOSITORY_FOUNDATION.md",
       "source_location": null,
       "weight": 1.0,
       "source": "phase_1a_repository_foundation_doc",
       "target": "repository_governance_doc"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "repository_governance_doc"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.85,
+      "source": "repository_governance_doc",
+      "target": "current_phase_current_phase"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_2_SYSTEM_ARCHITECTURE.md",
+      "source_location": "Related Documents / Next Phase",
+      "weight": 1.0,
+      "source": "phase2_system_architecture",
+      "target": "phase_3_canvas_engine_phase_3"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.8,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "phase_3_canvas_engine_phase_3"
     },
     {
       "relation": "references",
@@ -4485,6 +5682,26 @@
       "target": "dep_prop_invalidation_cascade"
     },
     {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/dependency-propagation.md",
+      "source_location": null,
+      "weight": 0.95,
+      "source": "dependency_propagation_staleness",
+      "target": "dep_prop_invalidation_cascade"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/architecture/dependency-propagation.md",
+      "source_location": null,
+      "weight": 0.95,
+      "source": "dep_prop_invalidation_cascade",
+      "target": "dep_prop_recalculation"
+    },
+    {
       "relation": "rationale_for",
       "confidence": "INFERRED",
       "confidence_score": 0.85,
@@ -4612,6 +5829,16 @@
       "source_location": null,
       "weight": 1.0,
       "source": "phase9_versioning",
+      "target": "versioning_strategy"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_9_VERSIONING.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "phase_9_versioning_phase",
       "target": "versioning_strategy"
     },
     {
@@ -4789,9 +6016,59 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
-      "source_location": "Stream 5 section",
+      "source_location": "Stream 5 - cross-references",
       "weight": 1.0,
-      "source": "phase1b_stream5_domain_hardening",
+      "source": "phase_1b_specification_stream5",
+      "target": "artifact_taxonomy"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "artifact_taxonomy"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "functional_requirements_domain_domain",
+      "target": "artifact_taxonomy"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "user_stories_domain_domain",
+      "target": "artifact_taxonomy"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "personas_domain_domain",
+      "target": "artifact_taxonomy"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "risk_analysis_domain_domain",
       "target": "artifact_taxonomy"
     },
     {
@@ -4981,7 +6258,7 @@
       "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
       "source_location": "Stream 5 section",
       "weight": 1.0,
-      "source": "phase1b_stream5_domain_hardening",
+      "source": "phase_1b_specification_stream5",
       "target": "typed_edge_semantics"
     },
     {
@@ -4993,6 +6270,206 @@
       "weight": 1.0,
       "source": "phase1b_stream4_arch_hardening",
       "target": "typed_edge_semantics"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "typed_edge_semantics_typed_edges",
+      "target": "edge_derived_from"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "edge_derived_from",
+      "target": "functional_requirements_domain_domain"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "edge_derived_from",
+      "target": "user_stories_domain_domain"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "typed_edge_semantics_typed_edges",
+      "target": "edge_refines"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "typed_edge_semantics_typed_edges",
+      "target": "edge_contextualizes"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "edge_contextualizes",
+      "target": "personas_domain_domain"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "edge_contextualizes",
+      "target": "stakeholder_domain_domain"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "edge_contextualizes",
+      "target": "functional_requirements_domain_domain"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "typed_edge_semantics_typed_edges",
+      "target": "edge_influences"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "edge_influences",
+      "target": "stakeholder_domain_domain"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "typed_edge_semantics_typed_edges",
+      "target": "edge_implements"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "typed_edge_semantics_typed_edges",
+      "target": "edge_estimates"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "edge_estimates",
+      "target": "estimation_domain_domain"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "typed_edge_semantics_typed_edges",
+      "target": "edge_exposes"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "edge_exposes",
+      "target": "risk_analysis_domain_domain"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "typed_edge_semantics_typed_edges",
+      "target": "edge_impacts"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "edge_impacts",
+      "target": "risk_analysis_domain_domain"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "edge_impacts",
+      "target": "estimation_domain_domain"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "typed_edge_semantics_typed_edges",
+      "target": "edge_mitigates"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "edge_mitigates",
+      "target": "risk_analysis_domain_domain"
     },
     {
       "relation": "references",
@@ -5062,17 +6539,217 @@
       "source_location": "Stream 5",
       "weight": 1.0,
       "source": "phase1b_specification",
-      "target": "phase1b_stream5_domain_hardening"
+      "target": "phase_1b_specification_stream5"
     },
     {
       "relation": "references",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "docs/roadmap/PHASE_2_SYSTEM_ARCHITECTURE.md",
-      "source_location": "Node Architecture section",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Work Streams",
       "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "phase1b_stream1_graph_health"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 1 - INFERRED edge audit",
+      "weight": 1.0,
+      "source": "phase1b_stream1_graph_health",
+      "target": "graph_report_graph_report"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Work Streams",
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "phase1b_stream2_missing_docs"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 2 - tech-stack.md",
+      "weight": 1.0,
+      "source": "phase1b_stream2_missing_docs",
+      "target": "tech_stack_tech_stack"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 2 - module-conventions.md",
+      "weight": 1.0,
+      "source": "phase1b_stream2_missing_docs",
+      "target": "module_conventions_module_conventions"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 2 - initial-schema.md",
+      "weight": 1.0,
+      "source": "phase1b_stream2_missing_docs",
+      "target": "initial_schema_initial_schema"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Work Streams",
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "phase1b_stream4_arch_hardening"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 4 - node-execution-model.md",
+      "weight": 1.0,
+      "source": "phase1b_stream4_arch_hardening",
+      "target": "node_execution_model_architecture"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 4 - canvas-engine.md",
+      "weight": 1.0,
+      "source": "phase1b_stream4_arch_hardening",
+      "target": "canvas_engine_canvas_engine"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 4 - traceability-model.md",
+      "weight": 1.0,
+      "source": "phase1b_stream4_arch_hardening",
+      "target": "traceability_model_traceability_model"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 4 - canvas-engine.md requires ADR-006",
+      "weight": 0.9,
+      "source": "phase1b_stream4_arch_hardening",
+      "target": "adr_006_canvas_technology"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 4 - node-execution-model.md integration with dependency-propagation.md",
+      "weight": 0.9,
+      "source": "phase1b_stream4_arch_hardening",
+      "target": "dependency_propagation_propagation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_2_SYSTEM_ARCHITECTURE.md",
+      "source_location": "Related Documents",
+      "weight": 0.9,
       "source": "phase2_system_architecture",
       "target": "phase4_node_framework"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.95,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "phase2_system_architecture"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 6",
+      "weight": 0.9,
+      "source": "phase_1b_specification_stream6",
+      "target": "phase2_system_architecture"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_2_SYSTEM_ARCHITECTURE.md",
+      "source_location": "Core Architectural Deliverables",
+      "weight": 1.0,
+      "source": "phase2_system_architecture",
+      "target": "phase_2_system_architecture_folder_structure"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_2_SYSTEM_ARCHITECTURE.md",
+      "source_location": "Core Architectural Deliverables",
+      "weight": 1.0,
+      "source": "phase2_system_architecture",
+      "target": "phase_2_system_architecture_graph_model"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_2_SYSTEM_ARCHITECTURE.md",
+      "source_location": "Core Architectural Deliverables",
+      "weight": 1.0,
+      "source": "phase2_system_architecture",
+      "target": "phase_2_system_architecture_node_architecture"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_2_SYSTEM_ARCHITECTURE.md",
+      "source_location": "Core Architectural Deliverables",
+      "weight": 1.0,
+      "source": "phase2_system_architecture",
+      "target": "phase_2_system_architecture_database_architecture"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_2_SYSTEM_ARCHITECTURE.md",
+      "source_location": "Core Architectural Deliverables",
+      "weight": 1.0,
+      "source": "phase2_system_architecture",
+      "target": "phase_2_system_architecture_event_driven"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_2_SYSTEM_ARCHITECTURE.md",
+      "source_location": "Core Architectural Deliverables",
+      "weight": 1.0,
+      "source": "phase2_system_architecture",
+      "target": "phase_2_system_architecture_dependency_propagation"
     },
     {
       "relation": "conceptually_related_to",
@@ -5243,88 +6920,728 @@
       "weight": 1.0,
       "source": "phase9_versioning",
       "target": "phase9_artifact_snapshots"
-    }
-  ],
-  "hyperedges": [
+    },
     {
-      "id": "ai_agent_governance_system",
-      "label": "AI Agent Governance System: Orchestrator + Implementer + Information Boundaries",
-      "nodes": [
-        "agent_orchestrator",
-        "agent_implementer",
-        "instruction_information_boundaries"
-      ],
-      "relation": "implement",
+      "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 0.95,
-      "source_file": ".claude/instructions/information-boundaries.md"
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.95,
+      "source": "canvas_engine_canvas_engine",
+      "target": "typed_edge_semantics_typed_edges"
     },
     {
-      "id": "core_graph_architecture_triad",
-      "label": "Core Graph Architecture: Graph-as-Record + Plugin Nodes + Event-Driven Communication",
-      "nodes": [
-        "adr_003_graph_system_of_record",
-        "adr_002_plugin_node",
-        "adr_004_event_driven"
-      ],
-      "relation": "form",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
-      "source_file": "docs/adr/003-graph-system-of-record.md"
-    },
-    {
-      "id": "graph_node_traceability_core",
-      "label": "Graph-Node-Traceability Core Platform Concepts",
-      "nodes": [
-        "concept_graph_as_system_of_record",
-        "concept_node_system",
-        "concept_traceability",
-        "concept_dependency_propagation"
-      ],
-      "relation": "participate_in",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "docs/adr/003-graph-system-of-record.md"
-    },
-    {
-      "id": "propagation_edge_taxonomy_triad",
-      "label": "Propagation Engine instantiated by Typed Edge Semantics over Artifact Taxonomy",
-      "nodes": [
-        "dep_prop_propagation_engine",
-        "typed_edge_semantics",
-        "artifact_taxonomy"
-      ],
-      "relation": "implement",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
-      "source_file": "docs/domain/typed-edge-semantics.md"
-    },
-    {
-      "id": "sdlc_nodes_artifact_categories_triad",
-      "label": "Phase 5 SDLC Nodes implement Artifact Taxonomy Categories with Typed Edge Relationships",
-      "nodes": [
-        "phase5_sdlc_nodes",
-        "artifact_taxonomy",
-        "typed_edge_semantics"
-      ],
-      "relation": "implement",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "docs/roadmap/PHASE_5_SDLC_NODES.md"
-    },
-    {
-      "id": "phase1b_specification_hardening_triad",
-      "label": "Phase 1B hardens Architecture Docs, Domain Docs, and ADRs for Phase 2 readiness",
-      "nodes": [
-        "phase1b_specification",
-        "phase2_system_architecture",
-        "artifact_taxonomy"
-      ],
-      "relation": "participate_in",
+      "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 0.9,
-      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md"
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "canvas_engine_canvas_engine",
+      "target": "node_execution_model_architecture"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "docs/architecture/tech-stack.md",
+      "source_location": null,
+      "weight": 0.8,
+      "source": "tech_stack_tech_stack",
+      "target": "canvas_engine_canvas_engine"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 4 - React Flow component breakdown",
+      "weight": 1.0,
+      "source": "canvas_engine_canvas_engine",
+      "target": "canvas_engine_react_flow_breakdown"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 4 - Zustand store design",
+      "weight": 1.0,
+      "source": "canvas_engine_canvas_engine",
+      "target": "canvas_engine_zustand_store"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 3 - ADR-006 architectural implications for canvas-engine.md",
+      "weight": 1.0,
+      "source": "adr_006_canvas_technology",
+      "target": "canvas_engine_canvas_engine"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "canvas_engine_canvas_engine"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.95,
+      "source": "canvas_engine_canvas_engine",
+      "target": "modular_boundaries_modular_boundaries"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/node-execution-model.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "node_execution_model_state_machine",
+      "target": "dependency_propagation_staleness"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/tech-stack.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "tech_stack_tech_stack",
+      "target": "canvas_engine_architecture"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/architecture/tech-stack.md",
+      "source_location": null,
+      "weight": 0.75,
+      "source": "tech_stack_tech_stack",
+      "target": "node_execution_model_architecture"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "tech_stack_tech_stack"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.75,
+      "source": "tech_stack_tech_stack",
+      "target": "module_conventions_module_conventions"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.75,
+      "source": "tech_stack_tech_stack",
+      "target": "initial_schema_initial_schema"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "typed_edge_semantics_typed_edges",
+      "target": "typed_edge_semantics_contains"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/typed-edge-semantics.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "typed_edge_semantics_typed_edges",
+      "target": "typed_edge_semantics_traces_to"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/canvas-engine.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "canvas_engine_architecture",
+      "target": "node_execution_model_architecture"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 4 - execution state machine",
+      "weight": 1.0,
+      "source": "node_execution_model_architecture",
+      "target": "node_execution_model_state_machine"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/architecture/node-execution-model.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "node_execution_model_architecture",
+      "target": "node_execution_model_node_registry"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 4 - NodeDefinition interface",
+      "weight": 1.0,
+      "source": "node_execution_model_architecture",
+      "target": "node_execution_model_node_definition"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 4 - integration with dependency-propagation.md",
+      "weight": 0.9,
+      "source": "node_execution_model_architecture",
+      "target": "dependency_propagation_propagation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "node_execution_model_architecture"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.7,
+      "source": "initial_schema_initial_schema",
+      "target": "node_execution_model_architecture"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/estimation-domain.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "estimation_domain_domain",
+      "target": "typed_edge_semantics_typed_edges"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/estimation-domain.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "estimation_domain_domain",
+      "target": "functional_requirements_domain_domain"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/estimation-domain.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "estimation_domain_domain",
+      "target": "user_stories_domain_domain"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/estimation-domain.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "risk_analysis_domain_domain",
+      "target": "estimation_domain_domain"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "functional_requirements_domain_domain",
+      "target": "typed_edge_semantics_typed_edges"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/functional-requirements-domain.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "risk_analysis_domain_domain",
+      "target": "functional_requirements_domain_domain"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/personas-domain.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "personas_domain_domain",
+      "target": "functional_requirements_domain_domain"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/stakeholder-domain.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "stakeholder_domain_domain",
+      "target": "functional_requirements_domain_domain"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.8,
+      "source": "functional_requirements_domain_domain",
+      "target": "user_stories_domain_domain"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 5",
+      "weight": 1.0,
+      "source": "phase_1b_specification_stream5",
+      "target": "functional_requirements_domain_domain"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "functional_requirements_domain_domain"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "personas_domain_domain",
+      "target": "typed_edge_semantics_typed_edges"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/personas-domain.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "personas_domain_domain",
+      "target": "user_stories_domain_domain"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/personas-domain.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "stakeholder_domain_domain",
+      "target": "personas_domain_domain"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "personas_domain_domain"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "risk_analysis_domain_domain",
+      "target": "typed_edge_semantics_typed_edges"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/user-stories-domain.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "risk_analysis_domain_domain",
+      "target": "user_stories_domain_domain"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/stakeholder-domain.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "risk_analysis_domain_domain",
+      "target": "stakeholder_domain_domain"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "risk_analysis_domain_domain"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/domain/stakeholder-domain.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "stakeholder_domain_domain",
+      "target": "typed_edge_semantics_typed_edges"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "user_stories_domain_domain",
+      "target": "typed_edge_semantics_typed_edges"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "user_stories_domain_domain"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.95,
+      "source": "phase_1a_repository_foundation_phase",
+      "target": "phase_1b_specification_phase_1b"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Work Streams",
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "phase_1b_specification_stream3"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Work Streams",
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "phase_1b_specification_stream5"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Work Streams",
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "phase_1b_specification_stream6"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "module_conventions_module_conventions"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "initial_schema_initial_schema"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "traceability_model_traceability_model"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "current_phase_current_phase"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "graph_report_graph_report"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "typed_edge_semantics_typed_edges"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "phase_1b_specification_phase_1b",
+      "target": "modular_boundaries_modular_boundaries"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 3 - ADR-006",
+      "weight": 1.0,
+      "source": "phase_1b_specification_stream3",
+      "target": "adr_006_canvas_technology"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 5",
+      "weight": 1.0,
+      "source": "phase_1b_specification_stream5",
+      "target": "user_stories_domain_schema"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 5",
+      "weight": 1.0,
+      "source": "phase_1b_specification_stream5",
+      "target": "personas_domain_schema"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 5",
+      "weight": 1.0,
+      "source": "phase_1b_specification_stream5",
+      "target": "stakeholder_domain_schema"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 5",
+      "weight": 1.0,
+      "source": "phase_1b_specification_stream5",
+      "target": "estimation_domain_schema"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 5",
+      "weight": 1.0,
+      "source": "phase_1b_specification_stream5",
+      "target": "risk_analysis_domain_schema"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 5 - edge type mapping cross-reference",
+      "weight": 1.0,
+      "source": "phase_1b_specification_stream5",
+      "target": "typed_edge_semantics_typed_edges"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 5 - field schema decisions informed by initial-schema.md",
+      "weight": 0.8,
+      "source": "phase_1b_specification_stream5",
+      "target": "initial_schema_initial_schema"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 6",
+      "weight": 1.0,
+      "source": "phase_1b_specification_stream6",
+      "target": "current_phase_current_phase"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 2 - module-conventions.md informs module folder structure",
+      "weight": 0.8,
+      "source": "module_conventions_module_conventions",
+      "target": "phase_2_system_architecture_folder_structure"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_2_SYSTEM_ARCHITECTURE.md",
+      "source_location": "Node Architecture - NodeDefinition interface",
+      "weight": 1.0,
+      "source": "phase_2_system_architecture_node_architecture",
+      "target": "phase_2_system_architecture_node_definition"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 2 - initial-schema.md is logical design for database architecture",
+      "weight": 0.85,
+      "source": "initial_schema_initial_schema",
+      "target": "phase_2_system_architecture_database_architecture"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "docs/roadmap/PHASE_2_SYSTEM_ARCHITECTURE.md",
+      "source_location": "Dependency Propagation",
+      "weight": 0.9,
+      "source": "phase_2_system_architecture_dependency_propagation",
+      "target": "dependency_propagation_propagation"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/roadmap/PHASE_2_SYSTEM_ARCHITECTURE.md",
+      "source_location": "Node Architecture",
+      "weight": 0.85,
+      "source": "phase_2_system_architecture_node_definition",
+      "target": "node_execution_model_node_definition"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": null,
+      "weight": 0.95,
+      "source": "traceability_model_traceability_model",
+      "target": "typed_edge_semantics_typed_edges"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/roadmap/PHASE_1B_SPECIFICATION.md",
+      "source_location": "Stream 4 - explicit cross-reference with dependency-propagation.md",
+      "weight": 1.0,
+      "source": "traceability_model_traceability_model",
+      "target": "dependency_propagation_propagation"
     }
   ],
-  "built_at_commit": "a8a6bd38ac73515ec5ea247f6b05f8dcbffa9f98"
+  "hyperedges": [],
+  "built_at_commit": "48f1503f8cf3f529a153be06b66cc631619122ed"
 }

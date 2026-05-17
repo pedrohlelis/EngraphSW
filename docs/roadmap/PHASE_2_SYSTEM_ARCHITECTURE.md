@@ -189,6 +189,11 @@ Design:
 - Architecture supports future scaling
 ---
 
+## Related Documents
+
+* [Phase 3 — Canvas Engine](PHASE_3_CANVAS_ENGINE.md) — next sequential phase
+* [Phase 4 — Node Framework](PHASE_4_NODE_FRAMEWORK.md) — implements the Node Architecture and NodeDefinition interface designed in this phase
+
 ## Next Phase
 
 [Phase 3 — Canvas Engine](PHASE_3_CANVAS_ENGINE.md)

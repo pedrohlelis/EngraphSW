@@ -46,7 +46,7 @@ Every edge type in this document is defined across five dimensions:
 
 **Directionality** — the direction the edge flows and what that direction means
 
-**Propagation contract** — what happens to the target when the source changes; references the propagation boundary type (hard, soft, or none)
+**Propagation contract** — what happens to the target when the source changes; references the propagation boundary type (hard, soft, or none) defined in [Dependency Propagation](../architecture/dependency-propagation.md). The [DERIVED_FROM](typed-edge-semantics.md), [REFINES](typed-edge-semantics.md), [CONTEXTUALIZES](typed-edge-semantics.md), and [IMPLEMENTS](typed-edge-semantics.md) edge types each carry a specific propagation contract described in their definitions below.
 
 **Traceability role** — how this edge participates in upstream and downstream graph traversal
 

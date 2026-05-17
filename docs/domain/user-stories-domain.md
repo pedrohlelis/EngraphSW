@@ -51,7 +51,7 @@ Define how user stories are modeled as traceable delivery-oriented expressions o
 
 ## Field Schema
 
-The following fields are stored as JSONB in the [`node_nodes`](../architecture/initial-schema.md) table's `content` column, for nodes of type `user-story`. See [Initial Schema — node_nodes](../architecture/initial-schema.md) for the full table definition.
+The following fields are stored as JSONB in the [node_nodes Table](../architecture/initial-schema.md) table's `content` column, for nodes of type `user-story`. See [Initial Schema — node_nodes](../architecture/initial-schema.md) for the full table definition.
 
 | Field | Type | Required | Constraints | Notes |
 |---|---|---|---|---|

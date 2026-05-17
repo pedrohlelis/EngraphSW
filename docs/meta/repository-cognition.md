@@ -349,6 +349,8 @@ The platform models engineering systems, not productivity workflows.
 UI LANGUAGE RULES
 ==================================================
 
+Full UI language specification: [EngraphSW UI Language Guidelines](../branding/ui-language.md)
+
 Tone:
 - concise
 - professional

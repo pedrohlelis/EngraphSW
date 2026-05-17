@@ -52,7 +52,7 @@ Define how functional requirements are represented as structured engineering art
 
 ## Field Schema
 
-The following fields are stored as JSONB in the [`node_nodes`](../architecture/initial-schema.md) table's `content` column, for nodes of type `requirement`. See [Initial Schema — node_nodes](../architecture/initial-schema.md) for the full table definition.
+The following fields are stored as JSONB in the [node_nodes Table](../architecture/initial-schema.md) table's `content` column, for nodes of type `requirement`. See [Initial Schema — node_nodes](../architecture/initial-schema.md) for the full table definition.
 
 | Field | Type | Required | Constraints | Notes |
 |---|---|---|---|---|

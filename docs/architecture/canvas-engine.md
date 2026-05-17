@@ -82,7 +82,7 @@ interface EdgeRendererProps extends EdgeProps {
 
 ### `EdgeTypeRegistry`
 
-Maps typed edge keys from [Typed Edge Semantics](../domain/typed-edge-semantics.md) to visual rendering parameters. Edge type keys match the `edge_type` column in [graph_edges](initial-schema.md).
+Maps typed edge keys from [Typed Edge Semantics](../domain/typed-edge-semantics.md) to visual rendering parameters. Edge type keys match the `edge_type` column in the [graph_edges Table](initial-schema.md).
 
 ```typescript
 interface EdgeTypeRenderConfig {
@@ -124,7 +124,7 @@ The canvas uses a single composed Zustand store with five slices. See [ADR-007](
 
 ### Graph Slice
 
-Owns the live graph data for React Flow. Mirrors the [`node_nodes`](initial-schema.md) and [`graph_edges`](initial-schema.md) tables as the client-side representation.
+Owns the live graph data for React Flow. Mirrors the [node_nodes Table](initial-schema.md) and [graph_edges Table](initial-schema.md) as the client-side representation.
 
 ```typescript
 interface GraphSlice {

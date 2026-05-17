@@ -1,5 +1,11 @@
 # PHASE 9 — VERSIONING & HISTORY
 
+## Related Documents
+
+* [Versioning Strategy](../architecture/versioning-strategy.md) — defines revision lifecycle, rollback semantics, and snapshot strategy for this phase
+
+---
+
 ## Objective
 
 Implement artifact history and rollback capabilities.
@@ -18,7 +24,7 @@ Implement artifact history and rollback capabilities.
 # Requirements
 
 Support:
-- artifact snapshots
+- artifact snapshots and rollback operations (see [Snapshot Strategy](../architecture/versioning-strategy.md))
 - graph snapshots
 - revision metadata
 - rollback operations

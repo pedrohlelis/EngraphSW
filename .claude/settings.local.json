@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(graphify --help)"
+      "Bash(graphify --help)",
+      "Bash(graphify extract *)"
     ]
   },
   "enabledPlugins": {

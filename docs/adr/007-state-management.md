@@ -59,15 +59,15 @@ EngraphSW will use **Zustand** for client-side state management.
 
 The client store will be organized as distinct slices, composed into a single store:
 
-**[Graph Slice](../architecture/canvas-engine.md)** — current graph data (nodes, edges), dirty state, last-synced revision. Drives React Flow `nodes` and `edges` props. Receives mutations from React Flow event handlers.
+**[Graph State Slice](../architecture/canvas-engine.md)** — current graph data (nodes, edges), dirty state, last-synced revision. Drives React Flow `nodes` and `edges` props. Receives mutations from React Flow event handlers.
 
-**[Selection Slice](../architecture/canvas-engine.md)** — currently selected node IDs, selected edge IDs, multi-select mode. Used by context menus, detail panels, and batch operations.
+**[Selection State Slice](../architecture/canvas-engine.md)** — currently selected node IDs, selected edge IDs, multi-select mode. Used by context menus, detail panels, and batch operations.
 
-**[Execution Slice](../architecture/canvas-engine.md)** — per-node execution status (idle, running, complete, error), pending execution queue, real-time progress state.
+**[Execution State Slice](../architecture/canvas-engine.md)** — per-node execution status (idle, running, complete, error), pending execution queue, real-time progress state.
 
-**[Viewport Slice](../architecture/canvas-engine.md)** — current pan position, zoom level, viewport bounds. Used for minimap, fit-to-view commands, and viewport-dependent rendering decisions.
+**[Viewport State Slice](../architecture/canvas-engine.md)** — current pan position, zoom level, viewport bounds. Used for minimap, fit-to-view commands, and viewport-dependent rendering decisions.
 
-**[Workspace Slice](../architecture/canvas-engine.md)** — active workspace ID, active graph ID, workspace metadata. Drives navigation and context.
+**[Workspace State Slice](../architecture/canvas-engine.md)** — active workspace ID, active graph ID, workspace metadata. Drives navigation and context.
 
 ---
 

@@ -4,6 +4,7 @@
 
 * [Repository Governance](repository-governance.md) — defines the governance layer that graph tooling supports
 * [Orchestration Model](orchestration-model.md) — defines how the orchestrator uses graph analysis for governance assessment
+* [Repository Cognition](repository-cognition.md) — defines the cognitive architecture that the knowledge graph operationalizes
 
 ---
 

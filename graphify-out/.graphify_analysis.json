@@ -1,0 +1,436 @@
+{
+  "communities": {
+    "0": [
+      "artifact_taxonomy",
+      "artifact_taxonomy_graph_semantics",
+      "artifact_taxonomy_risk_category",
+      "dep_prop_propagation_boundaries",
+      "edge_contains",
+      "edge_contextualizes",
+      "edge_derived_from",
+      "edge_estimates",
+      "edge_exposes",
+      "edge_five_dimensions",
+      "edge_impacts",
+      "edge_implements",
+      "edge_influences",
+      "edge_mitigates",
+      "edge_refines",
+      "edge_traces_to",
+      "estimation_domain_domain",
+      "estimation_domain_schema",
+      "functional_requirements_domain_domain",
+      "personas_domain_domain",
+      "personas_domain_schema",
+      "phase_1b_specification_stream5",
+      "risk_analysis_domain_domain",
+      "risk_analysis_domain_schema",
+      "stakeholder_domain_domain",
+      "stakeholder_domain_schema",
+      "typed_edge_semantics",
+      "typed_edge_semantics_contains",
+      "typed_edge_semantics_traces_to",
+      "typed_edge_semantics_typed_edges",
+      "user_stories_domain_domain",
+      "user_stories_domain_schema"
+    ],
+    "1": [
+      "ai_role_separation_doc",
+      "current_phase_current_phase",
+      "dependency_propagation_propagation",
+      "graph_maintenance_guide",
+      "graph_report_graph_report",
+      "initial_schema_initial_schema",
+      "modular_boundaries_modular_boundaries",
+      "module_conventions_module_conventions",
+      "orchestration_model_doc",
+      "persistence_strategy_persistence_strategy",
+      "phase1b_specification",
+      "phase1b_stream1_graph_health",
+      "phase1b_stream2_missing_docs",
+      "phase1b_stream3_adr",
+      "phase1b_stream4_arch_hardening",
+      "phase2_system_architecture",
+      "phase_1a_repository_foundation_doc",
+      "phase_1a_repository_foundation_phase",
+      "phase_1b_specification_phase_1b",
+      "phase_1b_specification_stream6",
+      "phase_2_system_architecture_database_architecture",
+      "phase_2_system_architecture_dependency_propagation",
+      "phase_2_system_architecture_event_driven",
+      "phase_2_system_architecture_folder_structure",
+      "phase_2_system_architecture_graph_model",
+      "phase_3_canvas_engine_phase_3",
+      "repository_cognition_doc",
+      "repository_governance_doc",
+      "tech_stack_tech_stack",
+      "traceability_model_traceability_model",
+      "ui_language_guidelines"
+    ],
+    "2": [
+      "canvas_engine_executionslice",
+      "module_conventions_module_ai",
+      "module_conventions_module_execution",
+      "module_conventions_module_graph",
+      "module_conventions_module_nodes",
+      "module_conventions_module_shared",
+      "module_conventions_module_traceability",
+      "module_conventions_nodecreatedevent",
+      "node_execution_model_aiproviderref",
+      "node_execution_model_architecture",
+      "node_execution_model_executenodeusecase",
+      "node_execution_model_node_definition",
+      "node_execution_model_node_registry",
+      "node_execution_model_nodedefinition",
+      "node_execution_model_nodeexecutioncontext",
+      "node_execution_model_noderegistry",
+      "node_execution_model_state_machine",
+      "phase_2_system_architecture_node_architecture",
+      "phase_2_system_architecture_node_definition",
+      "tech_stack_anthropicsdk",
+      "tech_stack_bullmq",
+      "tech_stack_openaisdk",
+      "traceability_model_traversalpath",
+      "traceability_model_traversalresult",
+      "traceability_model_traversalservice"
+    ],
+    "3": [
+      "001_modular_monolith_adr",
+      "002_plugin_node_architecture_adr",
+      "006_canvas_technology_adr",
+      "007_state_management_adr",
+      "adr_006_canvas_technology",
+      "canvas_engine_architecture",
+      "canvas_engine_canvas_engine",
+      "canvas_engine_edgerenderer",
+      "canvas_engine_edgetyperegistry",
+      "canvas_engine_graphslice",
+      "canvas_engine_noderenderer",
+      "canvas_engine_react_flow_breakdown",
+      "canvas_engine_selectionslice",
+      "canvas_engine_usecanvasstore",
+      "canvas_engine_viewportslice",
+      "canvas_engine_workspacecanvas",
+      "canvas_engine_workspaceslice",
+      "canvas_engine_zustand_store",
+      "initial_schema_graph_edges",
+      "modular_boundaries_architecture",
+      "phase_1b_specification_stream3",
+      "tech_stack_reactflow"
+    ],
+    "4": [
+      "adr_003_graph_system_of_record",
+      "artifact_taxonomy_lifecycle",
+      "concept_dependency_propagation",
+      "concept_graph_as_system_of_record",
+      "concept_traceability",
+      "dep_prop_adr004_ref",
+      "dep_prop_batch_propagation",
+      "dep_prop_cycle_detection",
+      "dep_prop_downstream_propagation",
+      "dep_prop_invalidation_cascade",
+      "dep_prop_propagation_engine",
+      "dep_prop_recalculation",
+      "dep_prop_staleness",
+      "dep_prop_typed_edge_ref",
+      "dep_prop_upstream_traversal",
+      "dependency_propagation_staleness",
+      "phase_9_versioning_phase",
+      "skill_event_driven_patterns",
+      "skill_graph_engineering",
+      "versioning_revision_lifecycle",
+      "versioning_rollback",
+      "versioning_strategy"
+    ],
+    "5": [
+      "agent_implementer",
+      "claude_md_constitution",
+      "concept_ai_native_engineering",
+      "concept_bounded_contexts",
+      "concept_engineering_artifacts",
+      "concept_event_driven_communication",
+      "concept_graph_native_platform",
+      "concept_layered_cognition",
+      "concept_node_system",
+      "concept_phase_gated_execution",
+      "concept_visual_engineering_os",
+      "instruction_information_boundaries",
+      "skill_ai_workflows",
+      "skill_architecture_review",
+      "skill_domain_driven_design",
+      "skill_node_design",
+      "skill_react_flow",
+      "skill_technical_debt",
+      "skill_ui_system"
+    ],
+    "6": [
+      "artifact_taxonomy_capability_domains",
+      "artifact_taxonomy_planning_category",
+      "export_pipelines",
+      "export_report_generation",
+      "export_system",
+      "export_templates",
+      "export_traceability_ref",
+      "phase10_exports",
+      "phase6_function_point_analysis",
+      "phase6_function_point_node",
+      "phase7_ai_features",
+      "phase7_ai_generation_workflows",
+      "phase7_provider_abstraction",
+      "phase8_collaboration",
+      "phase8_liveblocks",
+      "phase9_artifact_snapshots",
+      "phase9_versioning",
+      "versioning_snapshot"
+    ],
+    "7": [
+      "estimation_domain_estimation",
+      "functional_requirements_domain_requirement",
+      "initial_schema_exec_execution_logs",
+      "initial_schema_exec_staleness_records",
+      "initial_schema_graph_graphs",
+      "initial_schema_node_nodes",
+      "initial_schema_version_snapshots",
+      "initial_schema_ws_workspaces",
+      "personas_domain_persona",
+      "risk_analysis_domain_risk",
+      "stakeholder_domain_stakeholder",
+      "tech_stack_prisma",
+      "user_stories_domain_userstory"
+    ],
+    "8": [
+      "006_canvas_technology_canvas_module",
+      "006_canvas_technology_cytoscapejs",
+      "006_canvas_technology_d3js",
+      "006_canvas_technology_react_flow",
+      "007_state_management_execution_slice",
+      "007_state_management_graph_slice",
+      "007_state_management_jotai",
+      "007_state_management_react_context",
+      "007_state_management_redux_toolkit",
+      "007_state_management_selection_slice",
+      "007_state_management_viewport_slice",
+      "007_state_management_workspace_slice",
+      "tech_stack_zustand"
+    ],
+    "9": [
+      "artifact_taxonomy_artifact_vs_task",
+      "brand_ai_philosophy",
+      "brand_color_philosophy",
+      "brand_dark_first",
+      "brand_guidelines",
+      "brand_node_design_philosophy",
+      "brand_ui_language_ref",
+      "brand_visual_identity",
+      "orchestrator_agent",
+      "orchestrator_ai_role_separation",
+      "orchestrator_implementer_ref",
+      "orchestrator_orchestration_model"
+    ],
+    "10": [
+      "artifact_taxonomy_context_category",
+      "artifact_taxonomy_requirements_category",
+      "phase4_base_node_system",
+      "phase4_execution_engine",
+      "phase4_node_framework",
+      "phase4_node_states",
+      "phase5_functional_requirements_node",
+      "phase5_personas_node",
+      "phase5_sdlc_nodes",
+      "phase5_stakeholder_node",
+      "phase5_user_stories_node"
+    ],
+    "11": [
+      "ai_architecture_audit_record",
+      "ai_architecture_context_construction",
+      "ai_architecture_domain_layer",
+      "ai_architecture_graph_reasoning",
+      "ai_architecture_infrastructure_layer",
+      "ai_architecture_prompt_registry",
+      "ai_architecture_provider_strategy"
+    ],
+    "12": [
+      "ai_architecture_analysis",
+      "ai_architecture_generation",
+      "ai_architecture_output_lifecycle"
+    ],
+    "13": [
+      "adr_005_doc",
+      "ai_architecture_doc"
+    ],
+    "14": [
+      "module_conventions_module_workspace",
+      "tech_stack_nextjs"
+    ],
+    "15": [
+      "claude_doc"
+    ],
+    "16": [
+      "skill_prisma_postgres"
+    ],
+    "17": [
+      "adr_004_doc"
+    ],
+    "18": [
+      "ai_architecture_traceability_assistance"
+    ],
+    "19": [
+      "ai_architecture_estimation_assistance"
+    ],
+    "20": [
+      "initial_schema_ai_audit_records"
+    ],
+    "21": [
+      "initial_schema_event_outbox"
+    ],
+    "22": [
+      "tech_stack_vitest"
+    ],
+    "23": [
+      "brand_naming_conventions"
+    ],
+    "24": [
+      "current_phase_doc"
+    ]
+  },
+  "cohesion": {
+    "0": 0.14,
+    "1": 0.13,
+    "2": 0.13,
+    "3": 0.18,
+    "4": 0.13,
+    "5": 0.19,
+    "6": 0.11,
+    "7": 0.29,
+    "8": 0.17,
+    "9": 0.17,
+    "10": 0.22,
+    "11": 0.33,
+    "12": 0.67,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0
+  },
+  "gods": [
+    {
+      "id": "phase_1b_specification_phase_1b",
+      "label": "Phase 1B: Specification Hardening",
+      "degree": 32
+    },
+    {
+      "id": "typed_edge_semantics_typed_edges",
+      "label": "Typed Edge Semantics",
+      "degree": 25
+    },
+    {
+      "id": "canvas_engine_canvas_engine",
+      "label": "Canvas Engine",
+      "degree": 20
+    },
+    {
+      "id": "artifact_taxonomy",
+      "label": "Engineering Artifact Taxonomy",
+      "degree": 17
+    },
+    {
+      "id": "concept_dependency_propagation",
+      "label": "Dependency Propagation",
+      "degree": 16
+    },
+    {
+      "id": "typed_edge_semantics",
+      "label": "Typed Edge Semantics Document",
+      "degree": 16
+    },
+    {
+      "id": "dep_prop_propagation_engine",
+      "label": "Dependency Propagation Engine",
+      "degree": 14
+    },
+    {
+      "id": "node_execution_model_architecture",
+      "label": "Node Execution Model",
+      "degree": 14
+    },
+    {
+      "id": "initial_schema_node_nodes",
+      "label": "node_nodes Table",
+      "degree": 13
+    },
+    {
+      "id": "phase2_system_architecture",
+      "label": "Phase 2 \u2014 System Architecture",
+      "degree": 12
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Graph as System of Record",
+      "target": "Graph-Native SDLC Engineering Platform",
+      "source_files": [
+        "docs/adr/003-graph-system-of-record.md",
+        ".claude/CLAUDE.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "Traceability Intelligence",
+      "target": "Engineering Artifacts as First-Class Entities",
+      "source_files": [
+        "docs/adr/003-graph-system-of-record.md",
+        ".claude/CLAUDE.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "EngraphSW Orchestrator Agent",
+      "target": "Repository Cognition",
+      "source_files": [
+        ".claude/agents/orchestrator.md",
+        "docs/meta/repository-cognition.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "Node Execution States (idle, running, success, failed, stale)",
+      "target": "Node Staleness Mechanism",
+      "source_files": [
+        "docs/roadmap/PHASE_4_NODE_FRAMEWORK.md",
+        "docs/architecture/dependency-propagation.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; semantically similar concepts with no structural link; peripheral node `Node Execution States (idle, running, success, failed, stale)` unexpectedly reaches hub `Node Staleness Mechanism`"
+    },
+    {
+      "source": "Typed Edge Semantics",
+      "target": "Dependency Propagation",
+      "source_files": [
+        "docs/domain/typed-edge-semantics.md",
+        ".claude/skills/graph-engineering/SKILL.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    }
+  ],
+  "tokens": {
+    "input": 28962,
+    "output": 15301
+  }
+}

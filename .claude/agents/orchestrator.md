@@ -5,6 +5,7 @@
 * [EngraphSW Implementer Agent](implementer.md) — the complementary role this agent coordinates with
 * [AI Role Separation](../../docs/meta/ai-role-separation.md) — defines the authority boundary between Orchestrator and Implementer
 * [Orchestration Model](../../docs/meta/orchestration-model.md) — the operational flows this agent executes
+* [Repository Cognition](../../docs/meta/repository-cognition.md) — the cognitive architecture and platform identity context this agent operates within
 
 ---
 
@@ -55,6 +56,8 @@ Avoid:
 - governance rewriting during execution
 - generic SaaS thinking
 - workflow automation drift
+
+The boundary between engineering artifacts and generic tasks is defined in [Engineering Artifact Taxonomy](../../docs/domain/engineering-artifact-taxonomy.md). EngraphSW models artifacts, not tasks.
 
 ## When to Ask
 
