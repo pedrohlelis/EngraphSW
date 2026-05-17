@@ -2,7 +2,7 @@
 
 ## Active Phase
 
-PHASE 1B — Specification Hardening & Implementation Readiness
+PHASE 2 — System Architecture
 
 ## Status
 
@@ -10,13 +10,13 @@ In Progress
 
 ## Scope Boundary
 
-Current work MUST remain strictly inside the scope of PHASE 1B.
+Current work MUST remain strictly inside the scope of PHASE 2.
 
-Phase 1B is documentation and specification only. Do not write any production application code, scaffold any source directories, or begin Phase 2 implementation work unless explicitly instructed.
+Phase 2 is the foundation build phase. Deliverables are: project scaffold, Prisma schema, module skeleton, event system foundation, node registry, and core graph persistence. Do not implement UI components, canvas, authentication, or concrete node types.
 
 ## Phase Definition
 
-See [PHASE_1B_SPECIFICATION.md](PHASE_1B_SPECIFICATION.md) for the complete scope, work streams, sequencing, and success criteria.
+See [PHASE_2_SYSTEM_ARCHITECTURE.md](PHASE_2_SYSTEM_ARCHITECTURE.md) for the complete scope, work streams, sequencing, and success criteria.
 
 ## Phase Advancement Rule
 
